@@ -1,0 +1,30 @@
+/* Import fonts before Tailwind to ensure proper cascading */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add base font family to ensure it's applied globally */
+@layer base {
+  html, body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+}
+
+.libre-franklin {
+    font-family: "Libre Franklin", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
