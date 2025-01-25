@@ -19,10 +19,10 @@ function HomePage() {
         <img src={PixeldustLogo} alt="Pixeldust Logo" className="w-[80vw]" />
         <p className="text-[#177aff] text-xl">Pixeldust - You ship a Neopixel-based trinket PCB, We ship your design to you!</p>
       </div>
-      <div className="relative z-0 flex flex-col items-center justify-center pt-20">
-        <div className="flex flex-col bg-[#0077ff69] py-4 text-4xl font-bold text-white rounded-xl w-[90%] md:w-4/5 items-center">
-          <span className="px-4 mb-8 text-2xl text-center md:text-4xl">How to get your PCB!</span>
-          <div className="flex flex-col justify-between w-full gap-6 px-4 mb-8 md:flex-row md:px-8">
+      <div className="flex flex-col items-center justify-center pt-20 relative z-0">
+        <div className="flex flex-col bg-[#0077ff69] py-4 text-4xl font-bold text-white rounded-xl w-[90%] md:w-4/5 items-center mb-16">
+          <span className="mb-8 text-2xl md:text-4xl text-center px-4">How to get your PCB!</span>
+          <div className="flex flex-col md:flex-row justify-between w-full gap-6 px-4 md:px-8 mb-8">
             {/* Step 1 */}
             <div className="relative w-full md:w-1/3 aspect-square group">
               <img src={img1} alt="Schematic" className="object-cover w-full h-full rounded-xl" />
