@@ -26,7 +26,7 @@ function HomePage() {
             {/* Step 1 */}
             <div className="relative w-full md:w-1/3 aspect-square group">
               <img src={img1} alt="Schematic" className="object-cover w-full h-full rounded-xl" />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#0077ff] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl">
+              <div className="absolute inset-0 bg-gradient-to-t from-[#0077ff] to-[#ffffffa0] opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl">
                 <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
                   <p className="mb-2 font-sans text-xl font-semibold md:text-2xl">1. Create your schematic</p>
                   <ul className="space-y-1 font-sans text-sm">
@@ -43,7 +43,7 @@ function HomePage() {
             {/* Step 2 */}
             <div className="relative w-full md:w-1/3 aspect-square group">
               <img src={img2} alt="PCB Design" className="object-cover w-full h-full rounded-xl" />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#0077ff] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl">
+              <div className="absolute inset-0 bg-gradient-to-t from-[#0077ff] to-[#9f9fb9a0] opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl">
                 <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
                   <p className="mb-2 font-sans text-xl font-semibold md:text-2xl">2. Make your PCB</p>
                   <ul className="space-y-1 font-sans text-sm">
@@ -60,7 +60,7 @@ function HomePage() {
             {/* Step 3 */}
             <div className="relative w-full md:w-1/3 aspect-square group">
               <img src={img3} alt="Firmware" className="object-cover w-full h-full rounded-xl" />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#0077ff] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl">
+              <div className="absolute inset-0 bg-gradient-to-t from-[#0077ff] to-[#191c1fa0] opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-xl">
                 <div className="absolute bottom-0 left-0 right-0 p-4 text-white">
                   <p className="mb-2 font-sans text-xl font-semibold md:text-2xl">3. Write your firmware!</p>
                   <ul className="space-y-1 font-sans text-sm">
