@@ -15,4 +15,7 @@ This is a brand new (in development) YSWS where you design your own neopixel-bas
 ## Requirements
 - Your firmware must be working!!! We won't approve any without.
 - It must be more complex than just a simple blinking LED
-- 
+- Your PCB cannot exceed 100x100mm
+- Your PCB must only use 2 layers
+- Your PCB must use a XIAO RP2040 as the main board!!
+
