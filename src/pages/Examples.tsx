@@ -5,7 +5,7 @@ const projects = [
   {
     name: 'Snowflake',
     description: 'A snowflake design with WS2812B LEDs and a XIAO ESP32C3.',
-    image: 'https://private-user-images.githubusercontent.com/91326009/401258560-ad405bdd-c9ca-421a-99f4-8ff4ff19b22f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDA0MjM0OTgsIm5iZiI6MTc0MDQyMzE5OCwicGF0aCI6Ii85MTMyNjAwOS80MDEyNTg1NjAtYWQ0MDViZGQtYzljYS00MjFhLTk5ZjQtOGZmNGZmMTliMjJmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjI0VDE4NTMxOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTE5YjM3M2FjMjFiNmJhY2VkNjc5YjVhNDBhOGMyZjFkM2IxYjgwNDkwYjI5ZTkzODBlZWQ2NDM2MTQ1YTEwNDQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.9gTY0pIT8TeJeVKly_RMpOaRaWgiZZH2T_eB5j4Oh0g',
+    image: 'https://github.com/user-attachments/assets/20daac57-dd1c-4790-9447-e19dfaaa545a',
     repo: 'https://github.com/hackclub/onboard/tree/main/projects/snowflake',
     readme: 'This is my snowflake design for Hacky Holidays. It consists of a button, 48 WS2812B LEDs and a XIAO ESP32C3.'
   },
