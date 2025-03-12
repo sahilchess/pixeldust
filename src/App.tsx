@@ -7,9 +7,7 @@ import img3 from './assets/img3.png';
 import Navbar from './navbar'
 import { useEffect, useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Guides from './pages/Guides';
-import Submissions from './pages/Submissions';
-import Parts from './pages/Parts';
+import Guidelines from './pages/Guidelines';
 import Examples from './pages/Examples';
 
 function HomePage() {
@@ -96,7 +94,7 @@ function App() {
 
   return (
     <div
-      className="flex flex-col w-full min-h-screen"
+      className="flex flex-col min-h-screen"
       style={{
         backgroundImage: `url(${bgImage})`,
         backgroundAttachment: 'fixed',
@@ -110,15 +108,13 @@ function App() {
       </div>
       <div className="flex-grow">
         <Routes>
-          <Route path="/guides" element={<Guides />} />
-          <Route path="/submissions" element={<Submissions />} />
-          <Route path="/parts" element={<Parts />} />
+          <Route path="/Guidelines" element={<Guidelines />} />
           <Route path="/examples" element={<Examples />} />
           <Route path="/" element={<HomePage />} />
         </Routes>
       </div>
-      <footer className="w-full py-2 text-sm text-center text-[rgb(0,0,60)] bg-[#0000003e]">
-        Made with &lt;3 by <a href="https://github.com/M0HID" target="_blank" rel="noopener noreferrer" className="text-[#2069f1] hover:underline">@m0.hid</a>
+      <footer className="w-full py-2 text-sm text-center text-gray-300 bg-gradient-to-b from-[#0a1930] to-[#1a1a1a]">
+        Made with &lt;3 by <a href="https://github.com/M0HID" target="_blank" rel="noopener noreferrer" className="text-[#177aff] hover:underline">@m0.hid</a>
       </footer>
     </div>
   );
