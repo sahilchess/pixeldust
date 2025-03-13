@@ -1,6 +1,6 @@
 const Guidelines = () => {
     return (
-        <div className="flex flex-col items-center justify-center w-full p-4 text-xl text-black">
+        <div className="flex flex-col items-center justify-center w-full p-4 text-xl text-black mt-16">
             <div className="w-full max-w-4xl p-8 bg-white rounded-lg shadow-lg">
                 <h1 className="mb-4 text-2xl font-bold">Allowed Parts</h1>
                 <h2 className="mb-2 text-xl font-semibold">MCU:</h2>
