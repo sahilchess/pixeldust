@@ -1,6 +1,6 @@
 export default function Parts() {
   return (
-    <div className="flex flex-col items-center justify-center w-full p-4 text-xl text-black mt-16">
+    <div className="flex flex-col items-center justify-center w-full p-4 mt-16 text-xl text-black">
       <div className="w-full max-w-4xl p-8 bg-white rounded-lg shadow-lg">
         <h1 className="mb-4 text-2xl font-bold">Allowed Parts</h1>
         <p className="mb-4">All parts listed here are all optional to include in your design or not, except obviously the neopixels</p>

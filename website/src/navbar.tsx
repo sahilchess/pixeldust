@@ -3,9 +3,10 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
   const navItems = [
-    { name: 'Home', path: '/' },
-    { name: 'Guidelines', path: '/guidelines' },
-    { name: 'Examples', path: '/examples' }
+    { name: "Home", path: "/" },
+    { name: "Guidelines", path: "/guidelines" },
+    { name: "Examples", path: "/examples" },
+    { name: "Approved Parts", path: "/parts" },
   ];
 
   return (

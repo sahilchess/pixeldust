@@ -9,6 +9,7 @@ import { useEffect, useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Guidelines from './pages/Guidelines';
 import Examples from './pages/Examples';
+import Parts from './pages/Parts';
 
 function HomePage() {
   return (
@@ -110,7 +111,9 @@ function App() {
       <div className="flex-grow">
         <Routes>
           <Route path="/Guidelines" element={<Guidelines />} />
+          <Route path="/guidelines" element={<Guidelines />} />
           <Route path="/examples" element={<Examples />} />
+          <Route path="/parts" element={<Parts />} />
           <Route path="/" element={<HomePage />} />
         </Routes>
       </div>
