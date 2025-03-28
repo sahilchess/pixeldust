@@ -86,6 +86,7 @@ function App() {
       setIsScrolled(window.scrollY > 0);
     };
 
+
     window.addEventListener('scroll', handleScroll);
     return () => {
       window.removeEventListener('scroll', handleScroll);
@@ -120,4 +121,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
