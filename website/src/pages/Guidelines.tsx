@@ -171,8 +171,8 @@ import { Link } from "react-router-dom";
          <h2 className="mt-8 mb-2 text-xl font-semibold">SUBMISSIONS:</h2>
          <p className="mt-4">
            Make a PR to the GitHub repo:{" "}
-           <a href="https://github.com/m0hid/pixeldust" className="text-blue-500 hover:underline">
-             m0hid/pixeldust
+           <a href="https://github.com/hackclub/pixeldust" className="text-blue-500 hover:underline">
+             hackclub/pixeldust
            </a>
          </p>
          <p className="mt-4">Then you should put a README with the format:</p>
