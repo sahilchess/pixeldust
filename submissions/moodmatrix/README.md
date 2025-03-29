@@ -6,3 +6,6 @@ it currently cycles through the RGB colorspace since wokwi doesn't have a way to
 `https://wokwi.com/projects/426772422246477825` use this link to visit the project at wokwi. i'll be adding more features once
 i get this build in my hands thanks for reading <3.
 
+I call this board the MoodMatrix since the LEDs are in  a 6x5 Matrix shape.
+My slack ID is `U07FEFY2DNC`
+
