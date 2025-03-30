@@ -151,7 +151,7 @@ const Guidelines = () => {
         <p className="mt-4">Don't forget their power! Press P and search for +5V and GND. It should look like this:</p>
         <img src={power} alt="Power" />
 
-        <p className="mt-4">
+        <p className="mt-4" id="decoupling-capacitors">
           Decoupling capacitors help with voltage drops! You should have 1 or more big capacitor at the start of the power rail, and multiple small
           ones for every couple pixels. For 9 neopixels, I used 1 100uF capacitor and small 4.7nF ones for each row.
         </p>
