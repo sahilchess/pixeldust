@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import ALink from "../components/ALink";
 
 import schematicEditorButton from "./schematic_editor.png";
 
@@ -28,8 +29,9 @@ import decouplingCapacitors from "./decoupling_capacitors.png";
 
 import edgeCuts from "./edge_cuts.png";
 
-import ALink from "../components/ALink";
 import afterEdgeCuts from "./after_edge_cuts.png";
+
+import submissionFolder from "./submission.png";
 
 const Guidelines = () => {
   return (
@@ -243,9 +245,21 @@ const Guidelines = () => {
         <p className="mt-4">
           In your submission folder, create a new folder called <code>src</code>. This is where you will put your KiCad or any EDA files.
         </p>
+
         <p className="mt-4">
           Create another folder called <code>production</code>. This is where you will put your Gerber files. If you have a different version from
-          your Wokwi project, put your firmware source code here too.
+          your Wokwi project, put your firmware source code here too. If you want PCBA, please put your CPL file in the <code>production</code> folder
+          as well.
+        </p>
+
+        <p className="mt-4">It should look like this:</p>
+        <img src={submissionFolder} alt="Submission Folder" />
+
+        <p className="mt-4">Commit your changes and push them to your forked repo. After that you can create your Pull Request!</p>
+
+        <p className="mt-4">
+          <strong>NOTE:</strong> Please make sure to check your pull request for any errors before submitting. If you have any questions, feel free to
+          ask in the #pixeldust channel.
         </p>
       </div>
     </div>
