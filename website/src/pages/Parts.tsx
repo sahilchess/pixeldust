@@ -1,3 +1,5 @@
+import ALink from "../components/ALink";
+
 export default function Parts() {
   return (
     <div className="flex flex-col items-center justify-center w-full p-4 mt-16 text-xl text-black">
@@ -7,9 +9,19 @@ export default function Parts() {
 
         <h2 className="mb-2 text-xl font-semibold">MCU:</h2>
         <ul className="mb-4 list-disc list-inside">
-          <li>Xiao RP2040</li>
-          <li>Bare RP2040 (PCBA otherwise you solder)</li>
-          <li></li>
+          <li>
+            <ALink href="https://www.seeedstudio.com/XIAO-RP2040-v1-0-p-5026.html">Xiao RP2040</ALink>
+          </li>
+          <li>
+            <ALink href="https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html">Xiao ESP32-S3</ALink>
+          </li>
+          <li>ESP32-C3 Super Mini</li>
+          <li>
+            <ALink href="https://jlcpcb.com/partdetail/RaspberryPi-RP2040/C2040">Bare RP2040 (PCBA)</ALink>
+          </li>
+          <li>
+            <ALink href="https://www.aliexpress.com/item/1005006478706085.html">ESP32-S3-DevKitC-1</ALink>
+          </li>
         </ul>
 
         <h2 className="mb-2 text-xl font-semibold" id="neopixels">
@@ -19,43 +31,60 @@ export default function Parts() {
           <li>WS2812B-5050</li>
           <li>SK6812-5050</li>
           <li>SK6812MINI-EA</li>
+          <li>
+            <ALink href="https://www.lcsc.com/product-detail/RGB-LEDs-Built-in-IC_XINGLIGHT-XL-1615RGBC-WS2812B_C5349954.html">
+              XL-1615RGBC-WS2812B
+            </ALink>
+          </li>
+          <li>
+            <ALink href="https://www.lcsc.com/product-detail/RGB-LEDs-Built-in-IC_OPSCO-Optoelectronics-SKC6812RGBW-WS-B_C5380879.html?s_z=n_rgbw">
+              SKC6812RGBW-WS-B
+            </ALink>
+          </li>
         </ul>
         <p className="mb-4">* If I'm soldering: max. 50 neopixels</p>
         <p className="mb-4">* If soldering yourself: no limit but please dont go crazy with it</p>
 
         <p className="mb-4">Decoupling caps are optional but recommended.</p>
 
-        <h2 className="mb-2 text-xl font-semibold">USB PD Logic:</h2>
+        <h2 className="mb-2 text-xl font-semibold">Other misc parts:</h2>
+
+        <p className="mb-4">Generally most parts are ok for you to use, try get them from somewhere cheap like Aliexpress or LCSC.</p>
+
+        <p className="mb-4">
+          Since we are using PCBA from JLCPCB, if the parts can't be assemble with economic PCBA, you will have to solder them at home.
+        </p>
+
+        <p className="mb-4">
+          Parts below has gotten explicit permissions from mohid to use. If you want to make sure your part is ok to use, please ask in #pixeldust.
+        </p>
+
         <ul className="mb-4 list-disc list-inside">
+          <li>Resistors</li>
+          <li>Capacitors</li>
+          <li>Buttons/Switches</li>
           <li>
             A usb controller. Ex:
-            <a
-              href="https://www.lcsc.com/product-detail/USB-Converters_STMicroelectronics-STUSB4500QTR_C2678061.html?s_z=n_STUSB4500QTR"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-500 hover:underline">
-              STMicroelectronics STUSB4500QTR
-            </a>
+            <ALink href="https://jlcpcb.com/partdetail/Stmicroelectronics-STUSB4500QTR/C2678061">STMicroelectronics STUSB4500QTR</ALink>
           </li>
           <li>
             A USB C port. Ex:{" "}
-            <a
-              href="https://www.lcsc.com/product-detail/USB-Connectors_Amphenol-ICC-12402012E212A_C5150972.html?s_z=n_12402012E212A"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-500 hover:underline">
-              Amphenol ICC 12402012E212A
-            </a>
+            <ALink href="https://www.lcsc.com/product-detail/USB-Connectors_SHOU-HAN-TYPE-C-6P_C456012.html">SHOU HAN TYPE-C 6P</ALink>
           </li>
           <li>
             Buck converter to step down the voltage to 5V. Ex:{" "}
-            <a
-              href="https://www.lcsc.com/product-detail/DC-DC-Converters_Texas-Instruments-TPS568215RNNR_C473367.html"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-500 hover:underline">
-              Texas Instruments TPS568215RNNR
-            </a>
+            <ALink href="https://jlcpcb.com/partdetail/TexasInstruments-TPS54821RHLR/C57461">Texas Instruments TPS54821RHLR</ALink>
+          </li>
+          <li>AHT20 Temperature and Moisture sensor</li>
+          <li>
+            <ALink href="https://www.lcsc.com/product-detail/Accelerometers_TDK-InvenSense-ICM-42688-P_C1850418.html?s_z=n_C1850418">
+              TDK InvenSense ICM-42688-P Accelerometer gyroscope
+            </ALink>
+          </li>
+          <li>
+            <ALink href="https://www.lcsc.com/product-detail/Pressure-Sensors_Bosch-Sensortec-BMP388_C779278.html?s_z=n_C779278">
+              Bosch Sensortec BMP388 Pressure Sensor
+            </ALink>
           </li>
         </ul>
 

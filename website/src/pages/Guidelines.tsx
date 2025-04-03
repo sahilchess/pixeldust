@@ -26,6 +26,11 @@ import afterComponentsMoved from "./after_components_moved.png";
 
 import decouplingCapacitors from "./decoupling_capacitors.png";
 
+import edgeCuts from "./edge_cuts.png";
+
+import ALink from "../components/ALink";
+import afterEdgeCuts from "./after_edge_cuts.png";
+
 const Guidelines = () => {
   return (
     <div className="flex flex-col items-center justify-center w-full p-4 mt-16 text-xl text-black">
@@ -191,23 +196,57 @@ const Guidelines = () => {
         <img src={updatePcb} alt="Update PCB" />
 
         <p className="mt-4">After updating the PCB, it should look like below. I chose the Cherry MX switches for the switches footprint.</p>
+        <small>surely i wont bankrupt mohid with the switches :clueless:</small>
         <img src={afterPcbUpdate} alt="After Update PCB" />
 
-        <p className="mt-4">Move your components around however you like it.</p>
+        <p className="mt-4">
+          Move your components around however you like it. Have your decoupling capacitors close to what they are for. The big value one should be
+          closer to the power source (the XIAO in this case), and the smaller ones can be closer to the neopixels
+        </p>
         <img src={afterComponentsMoved} alt="After Components Moved" />
+
+        <p className="mt-4">
+          Don't forget to add the edge cuts! This is the outline of your PCB. It should be a closed loop and not intersect with anything else.
+          <br />
+          To add edge cuts, click on the "Edge.Cuts" layer on the right side of the screen. Then click on the "Draw Rectangle" button. Draw a
+          rectangle around your PCB. It should look like this:
+        </p>
+        <img className="m-8" src={edgeCuts} alt="Edge Cuts" />
+        <img src={afterEdgeCuts} alt="After Edge Cuts" />
+
+        <small>
+          i gtg to my english class, you can get more directions here, pcb routing is very general so most stuff from hackpad applies here as well:{" "}
+          <ALink href="https://hackpad.hackclub.com/guide#:~:text=There%20is%20a%20front%20side%20and%20back%20side%20of%20the%20board.%20You%20can%20tell%20them%20apart%20by%20color">
+            hackpad guide
+          </ALink>
+        </small>
 
         <h2 className="mt-8 mb-2 text-xl font-semibold">SUBMISSIONS:</h2>
         <p className="mt-4">
-          Make a PR to the GitHub repo:{" "}
-          <a href="https://github.com/m0hid/pixeldust" className="text-blue-500 hover:underline">
+          Fork the GitHub repo:{" "}
+          <a href="https://github.com/hackclub/pixeldust" className="text-blue-500 hover:underline">
             m0hid/pixeldust
           </a>
         </p>
-        <p className="mt-4">Then you should put a README with the format:</p>
-        <p className="mt-4">board-name:</p>
-        <p className="mt-4">slack-id:</p>
-        <p className="mt-4">wokwi-link:</p>
-        <p className="mt-4">Images and description of your board</p>
+
+        <p className="mt-4">
+          Press <code>.</code> on your keyboard to open online VS Code
+        </p>
+
+        <p className="mt-4">
+          In the submission folder, create a new folder with your board name. Copy README.md from the <code>!Template</code> folder and fill in your
+          info.
+        </p>
+
+        <p className="mt-4">Generate a PDF of your schematic and a BOM and add it in your submission folder!</p>
+
+        <p className="mt-4">
+          In your submission folder, create a new folder called <code>src</code>. This is where you will put your KiCad or any EDA files.
+        </p>
+        <p className="mt-4">
+          Create another folder called <code>production</code>. This is where you will put your Gerber files. If you have a different version from
+          your Wokwi project, put your firmware source code here too.
+        </p>
       </div>
     </div>
   );
