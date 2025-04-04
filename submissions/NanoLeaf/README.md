@@ -20,6 +20,7 @@ This project is a DIY Nanoleaf-style lighting system using WS2812B LEDs, control
 
 ## Magnet
 <img width="1510" alt="Screenshot 2025-04-04 at 2 59 33 PM" src="https://github.com/user-attachments/assets/d0aed146-4c4a-4e4d-819c-0243df6c5a08" />
+
 ## Design
 - The project consists of **five** PCBs: one main PCB with the XIAO and four extension PCBs with WS2812B LEDs.
 - The PCBs are wired in a way that the XIAO does not need to be soldered onto each extension panel.
