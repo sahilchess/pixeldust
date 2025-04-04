@@ -51,7 +51,7 @@ This project is a DIY Nanoleaf-style lighting system using WS2812B LEDs, control
 - https://wokwi.com/projects/421523245828929537
 
 ## NOTE:
-Hey!! I am making 5 nanoleaf(s) one will be the main controle board and other ones will only have 33 neopixels each The total grant becomes = **$46.77**
+Hey!! I am making 5 nanoleaf(s) one will be the main controle board and other ones will only have 33 neopixels each The total grant becomes = **$46.77** (assuming you provide all the electric components)
 
 ---
 This project brings a customizable and modular lighting setup, perfect for ambient decor or interactive installations!
