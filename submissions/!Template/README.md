@@ -19,4 +19,4 @@ A simplified BOM table
 
 Tell us a little bit about your design process. What were some challenges? What helped?
 
-Some images of your design:
+Some images of your design (make sure to include both the PCB and Schematic!):
