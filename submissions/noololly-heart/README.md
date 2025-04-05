@@ -4,6 +4,8 @@ Noololly's slack ID: U082MNEHH1U
 
 Wokwi Link: https://wokwi.com/projects/427305460135046145
 
+When ordering my PCB can you select the option to have the order number removed from the silkscreen please?
+
 # Images
 
 ## PCB
