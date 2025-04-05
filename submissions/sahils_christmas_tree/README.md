@@ -17,11 +17,11 @@ My board is a christmas tree. There isone button to toggle on/off. There are two
 ### A simplified BOM table
 (pls include rough pricing of any extra components you're using
 
-WS2812B: 10x2=$9.00 (check bom notes)
-C: $0.05 x 12 = $0.60
-U2: $7.49 x 1 = $7.49
-C1:	$0.28 x 1 = $0.28 
-SW_Push: 	$0.10 x 3 = $0.30
+1. WS2812B: 10x2=$9.00 (check bom notes)
+2. C: $0.05 x 12 = $0.60
+3. U2: $7.49 x 1 = $7.49
+4. C1:	$0.28 x 1 = $0.28 
+5. SW_Push: 	$0.10 x 3 = $0.30
 
 
 ### Tell us a little bit about your design process. What were some challenges? What helped?
