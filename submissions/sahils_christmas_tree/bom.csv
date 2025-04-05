@@ -1,6 +1,6 @@
 "Id","Designator","Quantity","Footprint","Supplier","ref","Notes"
-"WS2812B","LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm",12,"WS2812B",Panasonic,EEE-FC1E101P,shorturl.at/KdGD2
+"WS2812B","LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm",12,"WS2812B",,,
 "C","WCAP-CSGP_0603_R",12,"C",Würth Elektronik Group,WCAP-CSGP_0603_R,shorturl.at/ajG0W
 "U2","XIAO-ESP32S3-DIP",1,"XIAO-ESP32-S3-DIP",,,
-"C1","CAP_EEEFC1E101P",1,"C_Polarized",,,
+"C1","CAP_EEEFC1E101P",1,"C_Polarized",Panasonic,EEE-FC1E101P,shorturl.at/KdGD2
 "SW_Push","SW_PUSH_6mm",3,"SW_Push",,,
