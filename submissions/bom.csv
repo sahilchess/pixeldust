@@ -1,6 +1,6 @@
-"Id","Designator","Footprint","Quantity","Designation","Supplier and ref",
-1,"D3,D10,D11,D13,D4,D1,D6,D7,D2,D12,D5,D9","LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm",12,"WS2812B",,,
-2,"C8,C12,C3,C10,C2,C13,C5,C9,C6,C14,C4,C7","WCAP-CSGP_0603_R",12,"C",,,
-3,"U2","XIAO-ESP32S3-DIP",1,"XIAO-ESP32-S3-DIP",,,
-4,"C1","CAP_EEEFC1E101P",1,"C_Polarized",,,
-5,"SW3,SW2,SW1","SW_PUSH_6mm",3,"SW_Push",,,
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"D3;D10;D11;D13;D4;D1;D6;D7;D2;D12;D5;D9";"LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm";12;"WS2812B";;;
+2;"C8;C12;C3;C10;C2;C13;C5;C9;C6;C14;C4;C7";"WCAP-CSGP_0603_R";12;"C";;;
+3;"U2";"XIAO-ESP32S3-DIP";1;"XIAO-ESP32-S3-DIP";;;
+4;"C1";"CAP_EEEFC1E101P";1;"C_Polarized";;;
+5;"SW3;SW2;SW1";"SW_PUSH_6mm";3;"SW_Push";;;
