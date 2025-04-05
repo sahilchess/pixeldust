@@ -16,7 +16,12 @@ My board is a christmas tree. There isone button to toggle on/off. There are two
 
 ### A simplified BOM table
 (pls include rough pricing of any extra components you're using
-WS2812B
+
+WS2812B: 
+C: 
+U2: 
+C1:	 
+SW_Push: 	
 
 
 ### Tell us a little bit about your design process. What were some challenges? What helped?
