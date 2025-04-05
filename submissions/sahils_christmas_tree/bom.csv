@@ -1,5 +1,5 @@
 "Id","Designator","Quantity","Footprint","Supplier","ref","Notes"
-"WS2812B","LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm",12,"FZ2812-5050",DigiKey,WS2812B,shorturl.at/rfvnT
+"WS2812B","LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm",12,WS2812B,FezTek,FZ2812-505",shorturl.at/rfvnT
 "C","WCAP-CSGP_0603_R",12,"C",Würth Elektronik Group,WCAP-CSGP_0603_R,shorturl.at/ajG0W
 "U2","XIAO-ESP32S3-DIP",1,"XIAO-ESP32-S3-DIP",Seeed Studio,ESP32S3-DIP,shorturl.at/m7ySw
 "C1","CAP_EEEFC1E101P",1,"C_Polarized",Panasonic,EEE-FC1E101P,shorturl.at/KdGD2
