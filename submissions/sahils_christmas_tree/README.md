@@ -3,16 +3,16 @@ name: "Sahil Dasari"
 slack_handle: "@sahil"
 github_handle: "@sahilchess"
 tutorial: n/a
-wokwi: # Link to the Wokwi project
+wokwi: wokwi.com/projects/427420361279612929
 ---
 
 # Christmas Tree
 
-Wokwi link: [https://wokwi.com/projects/XXXXXX](https://wokwi.com/projects/XXXXXX)
+Wokwi link: [Christmas Tree](https://wokwi.com/projects/427420361279612929)
 
 ### Describe your board in 2-3 sentences. What are you making? What will it do? Please add a lot of pictures here!!
 
-My board is a christmas tree. There isone button to toggle on/off. There are two other buttons for the two modes I made. One mode ______. The other mode _______.
+My board is a christmas tree. There are three buttons. One button makes a cool rainbow pattern (inspiration from [Mood Matrix](https://wokwi.com/projects/426772422246477825)). Another button flickers 4 different lights over the span of 3 frames. I like to call that theater chase, because it looksliek
 
 ### A simplified BOM table
 
@@ -30,10 +30,7 @@ I started with a paper and made a rough sketch of my design. Then I used my know
 
 ### Some images of your design (make sure to include both the PCB and Schematic!):
 #### IDK why the neopixels, capacitors, and mcu are gone, but its probally nothing.
-![image](https://github.com/user-attachments/assets/d8660e7c-e5b8-4930-acc5-1336fd59a64c)
-![image](https://github.com/user-attachments/assets/c120a509-a2f2-4303-bd9a-2a0324289061)
-![image](https://github.com/user-attachments/assets/b105779b-e6bb-41fe-83cd-f9d98c5615e4)
-![image](https://github.com/user-attachments/assets/f5eed1ff-e9ad-4aa4-8560-a3662144cd04)
+
 
 
 
