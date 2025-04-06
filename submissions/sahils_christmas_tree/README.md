@@ -12,7 +12,7 @@ Wokwi link: [Christmas Tree](https://wokwi.com/projects/427420361279612929)
 
 ### Describe your board in 2-3 sentences. What are you making? What will it do? Please add a lot of pictures here!!
 
-My board is a christmas tree. There are three buttons. One button makes a cool rainbow pattern (inspiration from [Mood Matrix](https://wokwi.com/projects/426772422246477825)). Another button flickers 4 different lights over the span of 3 frames. I like to call that theater chase, because it looksliek
+My board is a christmas tree. There are three buttons. One button makes a cool rainbow pattern (inspiration from [Mood Matrix](https://wokwi.com/projects/426772422246477825)). Another button flickers 4 different lights over the span of 3 frames. I like to call that theater chase, because it looks like
 
 ### A simplified BOM table
 
