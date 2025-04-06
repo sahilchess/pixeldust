@@ -9,6 +9,8 @@ wokwi: wokwi.com/projects/427420361279612929
 # Christmas Tree
 
 Wokwi link: [Christmas Tree](https://wokwi.com/projects/427420361279612929)
+sometimes the wokwi software lags and glitches. if that happens, then restart the code.
+
 
 ### Describe your board in 2-3 sentences. What are you making? What will it do? Please add a lot of pictures here!!
 
