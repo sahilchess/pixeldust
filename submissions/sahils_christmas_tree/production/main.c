@@ -76,7 +76,7 @@ void resetModes() {
   // Reset all mode variables and clear the LED strip
   pixels.clear();
   pixels.show();
-  previousMillis = 0;  // Ensure we reset timing for each mode
+  previousMillis = millis();  // Ensure we reset timing for each mode
   spiralIndex = 0;
   spiralDone = false;
   chaseIndex = 0;
