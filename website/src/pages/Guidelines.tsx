@@ -237,7 +237,7 @@ const Guidelines = () => {
 
         <p className="mt-4">
           In the submission folder, create a new folder with your board name. Copy README.md from the <code>!Template</code> folder and fill in your
-          info. Please add a lots of pictures of your board!! Required photos: top/bottom side 3D render
+          info. Please add lots of pictures of your board!! e.g. renders of your PCB, the schematic and the pcb design itself
         </p>
 
         <p className="mt-4">Generate a PDF of your schematic and a BOM and add it in your submission folder!</p>
