@@ -25,12 +25,12 @@ My board is a christmas tree. There are three buttons. One button makes a cool r
 5. SW_Push: $0.10 x 3 = $0.30
 Total: ~$17.67
 
-### Tell us a little bit about your design process. What were some challenges? What helped?
+## Tell us a little bit about your design process. What were some challenges? What helped?
 
 I started with a paper and made a rough sketch of my design. Then I used my knowelge from the tutorials of kicad and made the board and routed the entire thing, making changes along the way. Some challenges were routing and finding capacitors with specific values. I wish I saw this template before so I could use those capacitors. The tutorials were a great help. 
 
 
-### Some images of your design (make sure to include both the PCB and Schematic!):
+# Some images of your design (make sure to include both the PCB and Schematic!):
 #### IDK why the neopixels, capacitors, and mcu are gone, but its probally nothing.
 ![image](https://github.com/user-attachments/assets/12d94135-a4da-42e2-8296-2c0bd54e2c14)
 ![image](https://github.com/user-attachments/assets/a1aca3d1-e571-457d-b54c-961397d6e3ba)
