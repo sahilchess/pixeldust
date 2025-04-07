@@ -1,15 +1,17 @@
-import './App.css'
-import PixeldustLogo from './assets/Pixeldust.svg'
-import bgImage from './assets/bg.jpg'
-import img1 from './assets/img1.png';
-import img2 from './assets/img2.png';
-import img3 from './assets/img3.png';
-import Navbar from './navbar'
-import { useEffect, useState } from 'react';
-import { Routes, Route } from 'react-router-dom';
-import Guidelines from './pages/Guidelines';
-import Examples from './pages/Examples';
-import Parts from './pages/Parts';
+import { useEffect, useState } from "react";
+import { Route, Routes } from "react-router-dom";
+import "./App.css";
+import PixeldustLogo from "./assets/Pixeldust.svg";
+import bgImage from "./assets/bg.jpg";
+import img1 from "./assets/img1.png";
+import img2 from "./assets/img2.png";
+import img3 from "./assets/img3.png";
+import Navbar from "./navbar";
+import Examples from "./pages/Examples";
+import FAQ from "./pages/FAQ";
+import Guidelines from "./pages/Guidelines";
+import Parts from "./pages/Parts";
+import Resources from "./pages/Resources";
 
 function HomePage() {
   return (
@@ -87,10 +89,9 @@ function App() {
       setIsScrolled(window.scrollY > 0);
     };
 
-
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -99,26 +100,29 @@ function App() {
       className="flex flex-col min-h-screen"
       style={{
         backgroundImage: `url(${bgImage})`,
-        backgroundAttachment: 'fixed',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat'
-      }}
-    >
-      <div className={`border-b z-50 ${isScrolled ? 'shadow-md' : 'border-gray-300'}`}>
+        backgroundAttachment: "fixed",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}>
+      <div className={`border-b z-50 ${isScrolled ? "shadow-md" : "border-gray-300"}`}>
         <Navbar />
       </div>
       <div className="flex-grow">
         <Routes>
-          <Route path="/Guidelines" element={<Guidelines />} />
           <Route path="/guidelines" element={<Guidelines />} />
+          <Route path="/faq" element={<FAQ />} />
+          <Route path="/resources" element={<Resources />} />
           <Route path="/examples" element={<Examples />} />
           <Route path="/parts" element={<Parts />} />
           <Route path="/" element={<HomePage />} />
         </Routes>
       </div>
       <footer className="w-full py-2 text-sm text-center text-gray-300 bg-gradient-to-b from-[#0a1930] to-[#1a1a1a]">
-        Made with &lt;3 by <a href="https://github.com/M0HID" target="_blank" rel="noopener noreferrer" className="text-[#177aff] hover:underline">@m0.hid</a>
+        Made with &lt;3 by{" "}
+        <a href="https://github.com/M0HID" target="_blank" rel="noopener noreferrer" className="text-[#177aff] hover:underline">
+          @m0.hid
+        </a>
       </footer>
     </div>
   );

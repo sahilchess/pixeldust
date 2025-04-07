@@ -22,6 +22,11 @@ export default function Parts() {
           <li>
             <ALink href="https://www.aliexpress.com/item/1005006478706085.html">ESP32-S3-DevKitC-1</ALink>
           </li>
+          <li>
+            <ALink href="https://www.lcsc.com/product-detail/WIFI-Modules_Espressif-Systems-ESP32-WROOM-32E-4MB_C701341.html">
+              ESP32-WROOM-32E (PCBA)
+            </ALink>
+          </li>
         </ul>
 
         <h2 className="mb-2 text-xl font-semibold" id="neopixels">
@@ -31,6 +36,10 @@ export default function Parts() {
           <li>WS2812B-5050</li>
           <li>SK6812-5050</li>
           <li>SK6812MINI-EA</li>
+
+          <li>^^^^ mO.hid will solder for you ^^^^</li>
+          <li>vvvv you will have to solder yourself vvvvv</li>
+
           <li>
             <ALink href="https://www.lcsc.com/product-detail/RGB-LEDs-Built-in-IC_XINGLIGHT-XL-1615RGBC-WS2812B_C5349954.html">
               XL-1615RGBC-WS2812B
@@ -41,6 +50,16 @@ export default function Parts() {
               SKC6812RGBW-WS-B
             </ALink>
           </li>
+          <li>
+            <ALink href="https://www.lcsc.com/product-detail/RGB-LEDs-Built-in-IC_OPSCO-Optoelectronics-SKC6812RGBW-WS-B_C5380879.html?s_z=n_rgbw">
+              OPSCO Optoelectronics SKC6812RGBW-WS-B
+            </ALink>
+          </li>
+          <li>
+            <ALink href="https://www.lcsc.com/product-detail/Light-Emitting-Diodes-LED_OPSCO-Optoelectronics-SK6812MINI-HS_C2922787.html">
+              OPSCO Optoelectronics SK6812MINI-HS
+            </ALink>
+          </li>
         </ul>
         <p className="mb-4">* If I'm soldering: max. 50 neopixels</p>
         <p className="mb-4">* If soldering yourself: no limit but please dont go crazy with it</p>
@@ -49,11 +68,12 @@ export default function Parts() {
 
         <h2 className="mb-2 text-xl font-semibold">Other misc parts:</h2>
 
-        <p className="mb-4">If you'd like to use other parts, e.g. a temperature sensor, etc. please message me (@m0.hid) on Slack and I can approve this for you.</p>
-
         <p className="mb-4">
-          Since we are using PCBA from JLCPCB, if the parts can't be assemble with economic PCBA, you will have to solder them at home.
+          If you'd like to use other parts, e.g. a temperature sensor, etc. please message me (@m0.hid) on Slack and I can approve this for you. Try
+          to source them somewhere cheap like Aliexpress or LCSC
         </p>
+
+        <p className="mb-4">If you are using a bare MCU chip, you can use economic PCBA from JLCPCB.</p>
 
         <p className="mb-4">
           Parts below has gotten explicit permissions from mohid to use. If you want to make sure your part is ok to use, please ask in #pixeldust.
@@ -75,9 +95,7 @@ export default function Parts() {
             Buck converter to step down the voltage to 5V. Ex:{" "}
             <ALink href="https://jlcpcb.com/partdetail/TexasInstruments-TPS54821RHLR/C57461">Texas Instruments TPS54821RHLR</ALink>
           </li>
-          <li>
-            AHT20 Temperature and Moisture sensor
-          </li>
+          <li>AHT20 Temperature and Moisture sensor</li>
         </ul>
 
         <h2 className="mb-2 text-xl font-semibold">SOLDERING IRON:</h2>
