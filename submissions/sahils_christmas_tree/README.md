@@ -18,12 +18,12 @@ My board is a christmas tree. There are three buttons. One button makes a cool r
 
 ### A simplified BOM table
 
-1. WS2812B: 10x2=$9.00 (check bom notes)
+1. WS2812B: $4.05 x 12 = $48.60 (i tried to find cheaper....😭)
 2. C: $0.05 x 12 = $0.60
 3. U2: $7.49 x 1 = $7.49
 4. C1:	$0.28 x 1 = $0.28 
 5. SW_Push: $0.10 x 3 = $0.30
-Total: ~$17.67
+Total: ~$57.27
 
 ## Tell us a little bit about your design process. What were some challenges? What helped?
 
