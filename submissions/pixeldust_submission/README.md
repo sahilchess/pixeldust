@@ -13,6 +13,7 @@ Based on the temperature, the LEDs will be either a warm color, or a cool color<
 Theres a different few functions in the firmware<br>
 
 #BOM: I ALSO HAVE ANOTHER BOM THATS MORE DETAILED IN THE FOLDER
+
 1x DHT11 ~ $5.00000 on Digikey but $1.28 on LCSC
 
 36x WS2812B 5.0mmx5.0mm
