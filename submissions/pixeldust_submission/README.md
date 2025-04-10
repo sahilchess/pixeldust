@@ -1,0 +1,19 @@
+<h1>ADVAYS PIXELDUST SUBMISSION</h1>
+
+
+Advay Roongta
+Slack: U08153CA9FD, Advay Roongta
+Github: AdvayRoongta
+<br>
+Wokwi: https://wokwi.com/projects/426323962994840577
+<h3>Project Info:</h3>
+I made a rectangular 6x6 LED screen with a temperature sensor. 
+I wanted to see it do cool patterns, and am probably going to expand on the firmware later.
+Based on the temperature, the LEDs will be either a warm color, or a cool color
+Theres a different few functions in the firmware
+<h3>Images:</h3>
+![image](https://github.com/user-attachments/assets/a7d91657-de07-4c1b-923a-ab7f195c1100)
+![image](https://github.com/user-attachments/assets/844a5150-56b0-41c3-82e9-4d460a9a8948)
+![image](https://github.com/user-attachments/assets/e5a907f0-1cdb-4a55-b66d-f8df46cf8d62)
+
+
