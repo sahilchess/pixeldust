@@ -240,7 +240,11 @@ const Guidelines = () => {
           info. Please add lots of pictures of your board!! e.g. renders of your PCB, the schematic and the pcb design itself
         </p>
 
-        <p className="mt-4">Generate a PDF of your schematic and a BOM and add it in your submission folder!</p>
+        <p className="mt-4">
+          Generate a PDF of your schematic and a BOM and add it in your submission folder! If your schematic is larger than the sheet, please split it
+          into multiple sheets and adjust your sheet size to fit all of the components. Otherwise, the PDF will clip the components outside of the
+          sheet.
+        </p>
 
         <p className="mt-4">
           In your submission folder, create a new folder called <code>src</code>. This is where you will put your KiCad or any EDA files.
