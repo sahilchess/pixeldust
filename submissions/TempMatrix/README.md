@@ -12,6 +12,8 @@ Replace the wokwi link below with yours
 
 Wokwi link: [https://wokwi.com/projects/427790809896654849](https://wokwi.com/projects/427790809896654849)
 
+Please remove the Order Number Silkscreen from my PCB in the options area. Thanks! 
+
 <!-- Uncomment the line below if you need a soldering iron -->
 ⚠️ I would like to solder my PixelDust project and solder other projects because my old soldering iron blasted and gave me a burn and my parents aren't buying me one, so I would need a soldering iron.
 
