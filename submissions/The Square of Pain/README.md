@@ -6,7 +6,6 @@ Wokwi Link: https://wokwi.com/projects/427945974569788417
 # Images
 
 #PCB
-
 <img width="626" alt="Screenshot 2025-04-11 at 11 55 28 AM" src="https://github.com/user-attachments/assets/b650429f-7376-4853-944f-019283c18c16" />
 
 #Schematic
