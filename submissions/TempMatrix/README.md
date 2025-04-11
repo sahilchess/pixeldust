@@ -16,7 +16,9 @@ Wokwi link: [https://wokwi.com/projects/427790809896654849](https://wokwi.com/pr
 ⚠️ I would like to solder my PixelDust project and solder other projects because my old soldering iron blasted and gave me a burn and my parents aren't buying me one, so I would need a soldering iron.
 
 Describe your board in 2-3 sentences. What are you making? What will it do? Please add a lot of pictures here!!
+
 I am making a SK6812 LED Matrix that has a ESP32-S3 and a DHT22 sensor, it will change the color of the LEDs based off of the temperature, i have also added 5 buttons and I am making a game that uses the temperature sensor and buttons and the matrix as a screen, the game is a WIP and I am currently working on it. I can add any pictures because I dont have the project physically.
+
 A simplified BOM table
 (pls include rough pricing of any extra components you're using)
 
@@ -43,6 +45,7 @@ A simplified BOM table
 5x Cherry MX Speed Silver ----- 16.17USD
 
 Tell us a little bit about your design process. What were some challenges? What helped?
+
 So some issues were that I ahd no idea what matrix size to use to kep it space friendly yet enough for my future game, I had to decide what sensors and inputs to use like i was thinking about a joystick but then I though to use switches, deciding a microcontroller was an issue too. What helped was the Slack community and a little bit of Copilot for what sensors to use, I wrote the code by myself (but it was a pain to wire up 84 neopixels on the schematic and wokwi). I opened up KiCad and logged my time on hackatime (but its not showing the correct time) and i designed for quite a few days. Music helped alot to keep me awake at late night but I finally did it.  
 
 Some images of your design (make sure to include both the PCB and Schematic!):
