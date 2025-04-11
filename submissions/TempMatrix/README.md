@@ -21,15 +21,25 @@ A simplified BOM table
 (pls include rough pricing of any extra components you're using)
 
 1x ESP32-S3-DEVKITC-1-N8R8 ---- 16.22USD 
+
 1x CH224K ---------------------  0.51USD
+
 10x 0305-2-15-80-47-80-10-0 ---- 0.18USD
+
 1x 100uF Capacitor ------------- 2.45USD
+
 84x SK6812 NeoPixels ---------- 5.922USD
+
 1x 330ohm resistor ----------- 0.0107USD
+
 1x 220ohm resistor ----------- 0.0421USD
+
 1x USB4085-GF-A_REVB --------- 0.7849USD
+
 1x Red LED Through hole ------ 0.0304USD
+
 1x DHT22 sensor --------------- 10.34USD
+
 5x Cherry MX Speed Silver ----- 16.17USD
 
 Tell us a little bit about your design process. What were some challenges? What helped?
