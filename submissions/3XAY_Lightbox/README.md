@@ -26,8 +26,8 @@ The switch can cycle through different presets. (Ex. make a text file with RGBW 
 
 # BOM
 * Xiao RP2040: $3.99
-* PCB: $2.00
-* PCB Shipping: $1.50
+* PCB: $2.00 (White soldermask, black silkscreen, no order number on PCB, untented vias)
+* PCB Shipping: $1.50 (Global Standard Direct Line)
 * [SK6812-5050, 7000K (65x): $7.51](https://www.lcsc.com/product-detail/RGB-LEDs-Built-in-IC_OPSCO-Optoelectronics-SKC6812RGBW-BW-B_C5380878.html)
 * Cherry MX-style switch: ~$0.20/switch (I already have them)
 * [EC11 Encoder with Switch: $1.99](https://www.lcsc.com/product-detail/Rotary-Encoders_ALPSALPINE-EC11E18244AU_C202365.html?s_z=n_EC11)
