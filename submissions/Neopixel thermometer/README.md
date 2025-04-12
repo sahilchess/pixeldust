@@ -6,7 +6,7 @@ tutorial: https://pixeldust.vercel.app/guidelines
 wokwi: # Link to the Wokwi project
 ---
 
-# Neopixel Themometer
+# NeoPixel Themometer
 
 ## Wokwi link
 
@@ -16,7 +16,7 @@ Wokwi link: [https://wokwi.com/projects/XXXXXX](https://wokwi.com/projects/XXXXX
 
 ## About
 
-Digital thermometers with numerical displays are boring! So, I made a temperature (and humidity!) sensing device powered by RGB Neopixel LEDs. It uses an AHT20 temperature & humidity sensor to sense how hot, cold, or humid it is, then displays the temperature using a 10-LED colored gradient, and the humitity using a 7-LED scale.
+Digital thermometers with numerical displays are boring! So, I made a temperature (and humidity!) sensing device powered by RGB NeoPixel LEDs. It uses an AHT20 temperature & humidity sensor to sense how hot, cold, or humid it is, then displays the temperature using a 10-LED colored gradient, and the humitity using a 7-LED scale.
 
 It's designed to work with temperatures from 15°C to 25°C (i.e. normal room temperature ranges for the UK), and relative humidity values from 30% to 100%. This could be changed by tweaking the silkscren text and the software, though.
 
@@ -39,6 +39,20 @@ Example:
 ## Design process
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? -->
+
+Once I had the idea for the project, I made a simple [mockup of the LED layout](https://www.tldraw.com/f/wIqEhbxRnkui7VBJU_q1x?d=v330.1.2188.1465.YdsrRqgbpH172HVnukqYR) in tldraw.
+
+This was my first time designing a PCB, and I chose to use [EasyEDA Pro](https://pro.easyeda.com/) to design the schematic and PCB. I read through some of the PCB Hack Club Jams to learn how to do PCB things - I foudn the [SparkleTilt jam](https://jams.hackclub.com/batch/sparkletilt-pcb/part-1) to be incredibly helpful.
+
+I went through 3 stages of ovecomplicating and then simplifying:
+
+If I could, I'd have given some advice to my past self:
+
+- Properly think about where you'd want the componenets on the real thing when you're making the schematic, because it makes creating the PCB way easier
+  - I did this to an extent, but I failed to consider that I'd want the Xiao's USB port at the bottom of the board, and making that change meant that I had to flip quite a few components around.
+- Read _all_ of the Pixeldust guide, to learn that I don't need a decoupling capacitor for _every single NeoPixel_
+  - My design included a capacitor for every NeoPixel, and I now realise that that's not required. (But it's too late to update the design now!)
+  - Alternatively, talk to my friend who knows about PCBs earlier, because he spotted the issue too
 
 ## Images
 
