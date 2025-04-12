@@ -52,8 +52,12 @@ If I could, I'd have given some advice to my past self:
   - I did this to an extent, but I failed to consider that I'd want the Xiao's USB port at the bottom of the board, and making that change meant that I had to flip quite a few components around.
 - Read _all_ of the Pixeldust guide, to learn that I don't need a decoupling capacitor for _every single NeoPixel_
   - My design included a capacitor for every NeoPixel, and I now realise that that's not required. (But it's too late to update the design now!)
-  - Alternatively, talk to my friend who knows about PCBs earlier, because he spotted the issue too
+  - Alternatively, talk to my friend who knows about PCBs earlier, because he spotted the issue too.
 
 ## Images
 
 <!-- Some images of your design (make sure to include both the PCB and Schematic!): -->
+
+### Mockup
+
+![Mockup of the LEDs](./images/mockup.png)
