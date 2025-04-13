@@ -3,16 +3,16 @@ name: "Mish"
 slack_id: "U073M5L9U13"
 github_handle: "@RandomSearch18"
 tutorial: https://pixeldust.vercel.app/guidelines
-wokwi: # Link to the Wokwi project
+wokwi: https://wokwi.com/projects/428115663410135041
 ---
 
 # NeoPixel Themometer
 
 ## Wokwi link
 
-TODO Replace the wokwi link below with mine
+Wokwi link: <https://wokwi.com/projects/428115663410135041>
 
-Wokwi link: [https://wokwi.com/projects/XXXXXX](https://wokwi.com/projects/XXXXXX)
+Note that Wikwi doesn't support any I2C temperature sensors like the AHT20 module I am using, so I have written placeholder functions that return dummy data for the Wokwi simulation.
 
 ## About
 
