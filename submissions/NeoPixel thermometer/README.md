@@ -36,6 +36,19 @@ Example:
 | Cherry MX         | SW_Cherry_MX_1.00u_PCB                         | 2        |          | 6.48$ for 8, 1.62$ for 2 |
  -->
 
+| Comment         | Footprint                               | Quantity | LCSC Part     | Cost       |
+| --------------- | --------------------------------------- | -------- | ------------- | ---------- |
+| 10kΩ            | R0603                                   | 2        | C3017715      | $0.01      |
+| 100nF           | C0201                                   | 18       | C14663        | $0.20      |
+| AHT20           | SENSOR-SMD_L3.0-W3.0-P1.00-BR           | 1        | C2757850      | $0.71      |
+| WS2812B-5050RGB | LED-SMD_4P-L5.0-W5.0-BR_WS2812B-5050RGB | 17       | C114586       | $1.64      |
+
+| Comment         | Footprint                               | Quantity | JLCPCB Part    | Cost           |
+| --------------- | --------------------------------------- | -------- | -------------- | -------------- |
+| XIAO ESP32C3    | COMM-SMD_KQ-2801_V106                   | 1        | [C19189385][1] | $11.70 (for 3) |
+
+[1]: <https://jlcpcb.com/partdetail/Seeed-XIAOESP32C3/C19189385>
+
 ## Design process
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped? -->
@@ -53,6 +66,7 @@ If I could, I'd have given some advice to my past self:
 - Read _all_ of the Pixeldust guide, to learn that I don't need a decoupling capacitor for _every single NeoPixel_
   - My design included a capacitor for every NeoPixel, and I now realise that that's not required. (But it's too late to update the design now!)
   - Alternatively, talk to my friend who knows about PCBs earlier, because he spotted the issue too.
+- Use the cheaper, more common 0402 package size for capacitors, instead of the default tiny 0201 capacitor size that EasyEDA gives you
 
 ## Images
 
