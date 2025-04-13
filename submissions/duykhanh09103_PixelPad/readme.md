@@ -3,7 +3,7 @@ name: "Khanh Duy Thanh Vo"(my actually name in like gov document is Vo Thanh Kha
 slack_id: "U081GA0TAPR"
 github_handle: "@duykhanh09103"
 tutorial: none
-wokwi: # Link to the Wokwi project
+wokwi: none rn
 ---
 
 # PixelPad
