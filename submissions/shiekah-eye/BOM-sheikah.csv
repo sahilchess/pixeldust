@@ -1,0 +1,4 @@
+Comment,Footprint,Quantity,LCSC
+330_ohm_resistor,Resistor_SMD:R_0805_2012Metric,1,0.10$
+WS2812B,LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm,40
+XIAO-RP2040-DIP,XIAO-RP2040-DIP,1
