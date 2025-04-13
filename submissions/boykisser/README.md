@@ -1,6 +1,6 @@
 ---
 name: "Meng Ray Lai"
-slack_id: "U07D59XCG4U"
+slack_id: "U07FPDRVCD8"
 github_handle: "@YeetTheAnson"
 tutorial: "None"
 wokwi: "https://wokwi.com/projects/428126154408852481"
