@@ -12,7 +12,42 @@ wokwi: https://wokwi.com/projects/428115663410135041
 
 Wokwi link: <https://wokwi.com/projects/428115663410135041>
 
-Note that Wikwi doesn't support any I2C temperature sensors like the AHT20 module I am using, so I have written placeholder functions that return dummy data for the Wokwi simulation.
+Note that Wikwi doesn't support any I2C temperature sensors like the AHT20 module I am using, so I have written placeholder functions that return random dummy data for the Wokwi simulation. Naturally, this would be replaced by code that reads actual temperature/humidity data from the sensor. I have written some code using the [SparkFun AHT20](https://github.com/sparkfun/SparkFun_Qwiic_Humidity_AHT20_Arduino_Library) library below, although this has not been tested.
+
+### Code to be added for AHT20 support
+
+```ino
+#include <Wire.h>
+#include <SparkFun_Qwiic_Humidity_AHT20.h>
+```
+
+```ino
+AHT20 sensor;
+```
+
+```ino
+float getTemperature() {
+  return sensor.getTemperature();
+}
+```
+
+```ino
+float getHumidity() {
+  return sensor.getHumidity();
+}
+```
+
+In `setup()`:
+
+```ino
+Wire.begin();
+if (sensor.begin()) {
+  Serial.println("Found AHT20 sensor")
+} else {
+  Serial.println("Fatal error: AHT20 not found")
+  while (1);
+}
+```
 
 ## About
 
