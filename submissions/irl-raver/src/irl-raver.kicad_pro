@@ -59,30 +59,12 @@
         }
       ],
       "drc_exclusions": [
-        [
-          "courtyards_overlap|25942500|156627500|51b9ab44-a4dc-4d68-a51e-eb0348ac404f|88338971-39ee-4d36-bf40-44ae8289ee82",
-          ""
-        ],
-        [
-          "malformed_courtyard|91876077|204205837|7ada75c1-caaa-43e2-9fef-3d2f714fd5d0|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "malformed_courtyard|92376076|203705838|7ada75c1-caaa-43e2-9fef-3d2f714fd5d0|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "solder_mask_bridge|89702084|198505020|ff0d8b4f-04f5-4bc2-b572-e384e46bdbfd|a7dda8f6-18d8-4ba6-812b-1d72c0d9848b",
-          ""
-        ],
-        [
-          "unconnected_items|16296237|220205834|48aed2cc-a017-4c19-96cf-9f0e5812263f|cc38312c-3b1b-4a77-b21d-52f4a353df0e",
-          ""
-        ],
-        [
-          "unconnected_items|24547500|164330000|38c7031f-e53e-45dc-ac55-ad9fee35285d|53f801cb-7742-4e6f-bdd6-bc80972a8183",
-          ""
-        ]
+        "courtyards_overlap|25942500|156627500|51b9ab44-a4dc-4d68-a51e-eb0348ac404f|88338971-39ee-4d36-bf40-44ae8289ee82",
+        "malformed_courtyard|91876077|204205837|7ada75c1-caaa-43e2-9fef-3d2f714fd5d0|00000000-0000-0000-0000-000000000000",
+        "malformed_courtyard|92376076|203705838|7ada75c1-caaa-43e2-9fef-3d2f714fd5d0|00000000-0000-0000-0000-000000000000",
+        "solder_mask_bridge|89702084|198505020|ff0d8b4f-04f5-4bc2-b572-e384e46bdbfd|a7dda8f6-18d8-4ba6-812b-1d72c0d9848b",
+        "unconnected_items|16296237|220205834|48aed2cc-a017-4c19-96cf-9f0e5812263f|cc38312c-3b1b-4a77-b21d-52f4a353df0e",
+        "unconnected_items|24547500|164330000|38c7031f-e53e-45dc-ac55-ad9fee35285d|53f801cb-7742-4e6f-bdd6-bc80972a8183"
       ],
       "meta": {
         "version": 2
@@ -94,19 +76,16 @@
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
-        "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
-        "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -117,11 +96,9 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
-        "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
@@ -133,13 +110,10 @@
         "solder_mask_bridge": "warning",
         "starved_thermal": "warning",
         "text_height": "warning",
-        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
-        "track_angle": "error",
         "track_dangling": "warning",
-        "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
         "unconnected_items": "error",
@@ -152,7 +126,6 @@
         "min_clearance": 0.1,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
-        "min_groove_width": 0.0,
         "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
@@ -170,11 +143,10 @@
       },
       "teardrop_options": [
         {
-          "td_onpthpad": true,
+          "td_onpadsmd": true,
           "td_onroundshapesonly": false,
-          "td_onsmdpad": true,
           "td_ontrackend": false,
-          "td_onvia": true
+          "td_onviapad": true
         }
       ],
       "teardrop_parameters": [
@@ -338,11 +310,9 @@
       "mfg": "",
       "mpn": ""
     },
-    "layer_pairs": [],
     "layer_presets": [
       {
         "activeLayer": -2,
-        "flipBoard": false,
         "layers": [
           0,
           1,
@@ -377,7 +347,9 @@
           30,
           31,
           32,
+          33,
           34,
+          35,
           36,
           37,
           38,
@@ -390,8 +362,6 @@
           45,
           46,
           47,
-          48,
-          49,
           50,
           51,
           52,
@@ -399,98 +369,147 @@
           54,
           55,
           56,
+          57,
           58,
-          60,
-          62
+          59
         ],
         "name": "All Layers No Fab",
         "renderLayers": [
-          "vias",
-          "footprint_text",
-          "footprint_anchors",
-          "ratsnest",
-          "grid",
-          "footprints_front",
-          "footprints_back",
-          "footprint_values",
-          "footprint_references",
-          "tracks",
-          "drc_errors",
-          "drawing_sheet",
-          "bitmaps",
-          "pads",
-          "zones",
-          "drc_warnings",
-          "locked_item_shadows",
-          "conflict_shadows"
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          157,
+          158,
+          159,
+          160,
+          161,
+          164,
+          165
         ]
       },
       {
         "activeLayer": -2,
-        "flipBoard": false,
         "layers": [
-          2,
-          3,
-          7,
-          11,
-          15,
-          25,
-          29
+          31,
+          32,
+          34,
+          36,
+          38,
+          44,
+          46
         ],
         "name": "Back Layers No Fab",
         "renderLayers": [
-          "vias",
-          "footprint_text",
-          "footprint_anchors",
-          "ratsnest",
-          "grid",
-          "footprints_front",
-          "footprints_back",
-          "footprint_values",
-          "footprint_references",
-          "tracks",
-          "drc_errors",
-          "drawing_sheet",
-          "bitmaps",
-          "pads",
-          "zones",
-          "drc_warnings",
-          "locked_item_shadows",
-          "conflict_shadows"
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          157,
+          158,
+          159,
+          160,
+          161,
+          164,
+          165
         ]
       },
       {
         "activeLayer": -2,
-        "flipBoard": false,
         "layers": [
           0,
-          1,
-          5,
-          9,
-          13,
-          25,
-          31
+          33,
+          35,
+          37,
+          39,
+          44,
+          47
         ],
         "name": "Front Layer No Fab",
         "renderLayers": [
-          "vias",
-          "footprint_text",
-          "footprint_anchors",
-          "ratsnest",
-          "grid",
-          "footprints_front",
-          "footprints_back",
-          "footprint_values",
-          "footprint_references",
-          "tracks",
-          "drc_errors",
-          "drawing_sheet",
-          "bitmaps",
-          "pads",
-          "zones",
-          "drc_warnings",
-          "locked_item_shadows",
-          "conflict_shadows"
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          157,
+          158,
+          159,
+          160,
+          161,
+          164,
+          165
         ]
       }
     ],
@@ -717,7 +736,7 @@
   },
   "meta": {
     "filename": "irl-raver.kicad_pro",
-    "version": 3
+    "version": 1
   },
   "net_settings": {
     "classes": [
@@ -732,7 +751,6 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3,
         "via_diameter": 0.6,
@@ -750,7 +768,6 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.6,
         "via_diameter": 0.6,
@@ -768,7 +785,6 @@
         "microvia_drill": 0.1,
         "name": "Weaker Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
         "via_diameter": 0.6,
@@ -777,7 +793,7 @@
       }
     ],
     "meta": {
-      "version": 4
+      "version": 3
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -819,7 +835,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 20,
+    "annotate_start_num": 0,
     "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -1019,6 +1035,14 @@
     [
       "064b3d33-3280-4c88-ba4a-655b13d7eea0",
       "audio"
+    ],
+    [
+      "1931239b-3e9e-46e8-b49e-d5b4264cf7e1",
+      "neopixel1"
+    ],
+    [
+      "439683e4-7dba-4fd7-9e0e-dbfd9b162ea9",
+      "neopixel2"
     ]
   ],
   "text_variables": {}
