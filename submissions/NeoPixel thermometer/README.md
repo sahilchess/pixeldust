@@ -61,3 +61,21 @@ If I could, I'd have given some advice to my past self:
 ### Mockup
 
 ![Mockup of the LEDs](./images/mockup.png)
+
+### Electronic schematic
+
+![Circuit diagram of the LEDs, microcontroller, and temperature sensor](./images/schematic.png)
+
+### PCB design
+
+![Screenshot of the PCB being designed in EasyEDA](./images/pcb-design.png)
+
+### 2D render
+
+![2D render of the top face of the PCB](./images/2d-render.png)
+
+![2D render of the bottom face of the PCB](./images/2d-render-bottom.png)
+
+### 3D render
+
+![3D render of the top face of the PCB](./images/3d-render-1.png)
