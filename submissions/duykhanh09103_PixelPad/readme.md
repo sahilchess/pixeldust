@@ -1,5 +1,5 @@
 ---
-name: "Khanh Duy Thanh Vo"(my actually name in like gov document is Vo Thanh Khanh Duy because of last name fist name)
+name: "Khanh Duy Thanh Vo"(my actually name in like gov document is Vo Thanh Khanh Duy because of last name fist name)"
 slack_id: "U081GA0TAPR"
 github_handle: "@duykhanh09103"
 tutorial: none
