@@ -6,10 +6,10 @@ Wokwi Link: https://wokwi.com/projects/427945974569788417
 # Images
 
 # PCB
-<img width="594" alt="Screenshot 2025-04-11 at 6 53 30 PM" src="https://github.com/user-attachments/assets/b3b6a7e4-0a5c-495f-9b6b-1d94cf471a57" />
+<img width="631" alt="Screenshot 2025-04-14 at 12 46 32 AM" src="https://github.com/user-attachments/assets/9f4ec410-23cc-4d9e-bce5-deb08e28b0af" />
 
 # Schematic
-<img width="732" alt="Screenshot 2025-04-11 at 6 58 24 PM" src="https://github.com/user-attachments/assets/aa40e4a8-38b1-41df-b80b-9e405d7b8a35" />
+<img width="577" alt="Screenshot 2025-04-14 at 12 46 05 AM" src="https://github.com/user-attachments/assets/2b6ba7b2-f685-45c8-a4e7-831530250ce4" />
 
 # Model
-<img width="582" alt="Screenshot 2025-04-11 at 11 55 58 AM" src="https://github.com/user-attachments/assets/33df7748-32d6-4972-a0f9-3e3b82a7dac7" />
+<img width="570" alt="Screenshot 2025-04-14 at 12 46 53 AM" src="https://github.com/user-attachments/assets/a68201ee-cd76-48aa-b2b3-7dd1dcaf2e10" />
