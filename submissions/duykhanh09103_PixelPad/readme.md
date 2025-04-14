@@ -3,22 +3,17 @@ name: "Khanh Duy Thanh Vo (my actually name in like gov document is Vo Thanh Kha
 slack_id: "U081GA0TAPR"
 github_handle: "@duykhanh09103"
 tutorial: none
-wokwi: none rn
+wokwi: https://wokwi.com/projects/428194723515552769
 ---
 
 # PixelPad
 
 Replace the wokwi link below with yours
 
-Wokwi link: [https://wokwi.com/projects/XXXXXX](https://wokwi.com/projects/XXXXXX)
+Wokwi link: https://wokwi.com/projects/428194723515552769
 
 <!-- Uncomment the line below if you need a soldering iron -->
 <!-- ⚠️ I would like to [reason for iron], so I would need a soldering iron. -->
-
-Describe your board in 2-3 sentences. What are you making? What will it do? Please add a lot of pictures here!!
-
-A simplified BOM table
-(pls include rough pricing of any extra components you're using)
 
 <!-- Example: -->
 
@@ -38,3 +33,6 @@ originally i wanna design like  a 10x10 pixel board so i can display like image,
 there was not a lot of challenge cuz @tobycm helped me a lot with kicad!(hes the goat 🗣). 
 
 Some images of your design (make sure to include both the PCB and Schematic!):
+<img title="Schematic" src="images/schematic.png">
+<img title="PCB"  src="images/pcb_front.png">
+<img title="PCB back"  src="images/pcb_back.png">
