@@ -1,12 +1,12 @@
-# Pixel-Dongle
-
 ---
 name: "Koji Ino"
-slack_id: ""
+slack_id: "U07QNKS5SKA"
 github_handle: "@Person20020"
-tutorial: "Not really. A bit of the default guide for which capacitors to use."
+tutorial: "Default guide for which capacitors to use."
 wokwi: "https://wokwi.com/projects/427432208043670529"
 ---
+
+# Pixel-Dongle
 
 My submission is a board that uses the ESP32-C3. 
 This is for the wifi, so that it can be used on battery as a small temperature/humidity display. 
