@@ -32,3 +32,5 @@ already established power from the USB C port (implicit contract, 5V3A).
 some images:
 ![front](image.png)
 ![back](image-1.png)
+
+> The slikscreen has designs from the XKCD comics. <3
