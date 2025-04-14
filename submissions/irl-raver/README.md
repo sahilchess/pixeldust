@@ -10,24 +10,45 @@ wokwi: https://wokwi.com/projects/426625186184011777
 
 Wokwi link: [https://wokwi.com/projects/426625186184011777](https://wokwi.com/projects/426625186184011777)
 
-<!-- Uncomment the line below if you need a soldering iron -->
-
-<!-- ⚠️ I would like to [reason for iron], so I would need a soldering iron. -->
-
 I made an audio visualizer using JavaScript at [raver.tobycm.dev](https://raver.tobycm.dev), made it into a Chrome extension as well. This will be the sequel to the 2 digital version by having a physical audio visualizer lol.
 
-<!-- A simplified BOM table -->
+BOM table:
 
-<!-- Example: -->
-
-<!-- | Comment         | Footprint                                   | Quantity | LCSC   | Cost                     |
-| --------------- | ------------------------------------------- | -------- | ------ | ------------------------ |
-| 100uF           | C_1206_3216Metric_Pad1.33x1.80mm_HandSolder | 1        | C15008 | 0.0682$                  |
-| 4.7nF           | C_0402_1005Metric_Pad0.74x0.62mm_HandSolder | 3        | C1538  | 0.0011$                  |
-| WS2812B         | LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm          | 9        |        |
-| XIAO-RP2040-DIP | XIAO-RP2040-DIP                             | 1        |        |
-| Cherry MX       | SW_Cherry_MX_1.00u_PCB                      | 2        |        | 6.48$ for 8, 1.62$ for 2 | -->
+| Part                        | Quantity | LCSC      | Cost     |
+| --------------------------- | -------- | --------- | -------- |
+| 4.7uF                       | 27       | C23733    | 0.1458$  |
+| 1mF                         | 2        | C5246577  | 0.1456$  |
+| 0.1uF                       | 14       | C1525     | 0.0168$  |
+| 10uF                        | 14       | C19702    | 0.0840$  |
+| 2.2nF                       | 8        | C1604     | 0.0216$  |
+| 2.2uF                       | 4        | C23630    | 0.0236$  |
+| 1uF                         | 6        | C28323    | 0.0564$  |
+| SK6812MINI-HS               | 168      | C2922787  | 17.0688$ |
+| Green LED                   | 3        | C2297     | 0.0324$  |
+| Schottky Diode              | 2        | C509930   | 0.4398$  |
+| PJ-320D-A Headphone Jack    | 3        | C19189088 | 0.1518$  |
+| USB-C Receptacle            | 1        | C2927029  | 0.0363$  |
+| Pin Header 2.54mm           | 6 pins   |           |          |
+| Pin Socket 2.54mm           | 6 pins   |           |          |
+| 5.1kΩ                       | 4        | C25905    | 0.0020$  |
+| 10kΩ                        | 3        | C25744    | 0.0018$  |
+| 470Ω                        | 19       | C25117    | 0.0114$  |
+| 220Ω                        | 4        | C25091    | 0.0024$  |
+| Rotary Encoder EC12E24404A9 | 1        | C2687299  | 0.4979$  |
+| XIAO-RP2040-DIP             | 1        |           |          |
 
 <!-- Tell us a little bit about your design process. What were some challenges? What helped?
 
 Some images of your design (make sure to include both the PCB and Schematic!): -->
+
+I am very lucky to have @dhylands as my mentor throughout the designing process: giving me valuable tips like using test points, make [test boards for subsystems](https://github.com/tobycm/OnBoard/tree/main/projects/tobydio) to test them if they actually work, and general schematic and PCB designing.
+
+Some PCB pics:
+
+![pcb front](./assets/front_pcb.png)
+
+![pcb back](./assets/back_pcb.png)
+
+![3d front](./assets/3d_front.png)
+
+![3d back](./assets/3d_back.png)
