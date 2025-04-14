@@ -21,8 +21,8 @@ Critical specifications in JLCPCB:
 2. "Remove Mark" option must be selected under High-spec Options > Mark on PCB
 
 Note:
-Yes, some of the SK6812Mini-EA pads will be cut off and this should be fine
-
+1. Yes, some of the SK6812Mini-EA pads will be cut off and this should be fine
+2. I plan to solder this PCB myself, is it possible to get the PCB shipped directly to me? (From JLCPCB)
 
 Bill Of Material
 
