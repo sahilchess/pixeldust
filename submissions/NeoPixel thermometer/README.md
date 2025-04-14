@@ -94,6 +94,10 @@ This was my first time designing a PCB, and I chose to use [EasyEDA Pro](https:/
 
 I went through 3 stages of ovecomplicating and then simplifying:
 
+1. First, attempting to design a circuit that implements USB-PD negotiation
+2. Then, realising that I don't need any more than 5V * 3A, and setting up a simple USB-C receptacle for power input
+3. Finally, realising that the Seeed Xiao board already has a USB-C port for power input and flashing, so I can just use that
+
 If I could, I'd have given some advice to my past self:
 
 - Properly think about where you'd want the componenets on the real thing when you're making the schematic, because it makes creating the PCB way easier
