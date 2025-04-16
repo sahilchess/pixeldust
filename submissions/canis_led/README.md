@@ -24,6 +24,5 @@ A simplified BOM table
 Tell us a little bit about your design process. What were some challenges? What helped?
     I started with the SVG of my Logo and then added the LEDs so its like a windmill orientation like you see on those RGB PC fans. And then the schematic and routing and Done! Guidelines on the Website were very helpful!!
 
-![Image of Schematic](image_pcb_schematic.png)
-
-![Image of 3D View](image.png)
+![Image of PCB](PCB.png)
+![Image of 3D](3D.png)
