@@ -8,7 +8,7 @@ wokwi: "https://wokwi.com/projects/428319434916413441"
 
 # Weather-Ring
 
-🟢 I can solder everything myself 🟢
+🟢 I can solder everything myself (I already have a soldering iron) 🟢
 
 Wokwi link: [https://wokwi.com/projects/428319434916413441](https://wokwi.com/projects/428319434916413441)
 
