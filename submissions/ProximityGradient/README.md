@@ -6,7 +6,7 @@ tutorial: [default guide](https://pixeldust.hackclub.com/guidelines)
 wokwi: [WOKWI PROJECT](https://wokwi.com/projects/426893863510548481)
 ---
 
-# YOUR PROJECT NAME
+# ProximityGradient
 
 Wokwi link: [https://wokwi.com/projects/426893863510548481](https://wokwi.com/projects/426893863510548481)
 
