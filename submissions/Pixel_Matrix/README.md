@@ -12,9 +12,12 @@ Wokwi link: https://wokwi.com/projects/419125530736663553
 
 Its a 11x11 RGB Matrix that can be controlled using wifi/ bluetooth or music also there are other io pins to add other sensors aswell
 
-ESP32E Wroom ~ 3-4$
-mic5219 3.3 ~ 0.5$
-6.3v 1000uf cap ~ 0.1$
+| QTY           |     PART      | Approx Price |
+| ------------- | ------------- | ------------ | 
+| 1             | ESP WROOM 32E |   $3.79      |
+| 125           | SK6812MINI-EA |   $9.30      |
+| 1             | MIC5219-3.3 |   $0.162     |
+| 1           | 6.3v 1000uf(6.3YXJ1000M8X11.5)  |   $0.1184      |
 
 (pls include rough pricing of any extra components you're using
 
