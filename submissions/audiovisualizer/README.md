@@ -8,6 +8,8 @@ github_handle: "@hridaya423"
 
 ⚠️ I would like to have 120 leds for the audio visualizer, so I would need a soldering iron.
 
+Wokwi link: https://wokwi.com/projects/428497544685566977
+
 This PCB captures audio from an I2S microphone and displays the frequency spectrum on a 120-LEDs. It uses FFT to adjust the LED brightness based on the audio data.
 
 ## BOM
