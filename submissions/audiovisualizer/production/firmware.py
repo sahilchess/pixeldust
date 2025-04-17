@@ -1,36 +1,40 @@
-from machine import Pin
+import time
+import board
 import neopixel
 import array
-import rp2
-import math
-from ulab import numpy as np
-from rp2 import PIO, StateMachine, asm_pio
-import time
 import audiobusio
+from ulab import numpy as np
 
-LED_PIN = 1 # GPIO26
+LED_PIN = board.GP1
 NUM_LEDS = 120
-np_strip = neopixel.NeoPixel(Pin(LED_PIN), NUM_LEDS)
+SAMPLERATE = 16000
+BUFFER_SIZE = 1024
 
-# I2S Microphone Configuration (ICS-43434)
-I2S_BCLK = 9
-I2S_WS = 7 
-I2S_DOUT = 5 
+pixels = neopixel.NeoPixel(LED_PIN, NUM_LEDS, brightness=0.5, auto_write=False)
 
-i2s = audiobusio.I2SIn(bit_clock=Pin(I2S_BCLK), word_select=Pin(I2S_WS), data=Pin(I2S_DOUT), sample_rate=16000, bits_per_sample=16)
+i2s = audiobusio.I2SIn(
+    bit_clock=board.GP9,
+    word_select=board.GP7,
+    data=board.GP5,
+    sample_rate=SAMPLERATE,
+    bits_per_sample=16
+)
 
 def update_leds():
-    buffer = bytearray(1024) 
-    i2s.readinto(buffer)
+    buffer = bytearray(BUFFER_SIZE)
+    i2s.record(buffer, len(buffer))
     samples = np.frombuffer(buffer, dtype=np.int16)
-    fft_result = np.abs(np.fft.fft(samples))[:NUM_LEDS]  
-    max_val = np.max(fft_result) if np.max(fft_result) > 0 else 1 
+    
+    fft_result = np.abs(np.fft.fft(samples))[0:NUM_LEDS]
+    max_val = np.max(fft_result)
+    if max_val == 0:
+        max_val = 1
     
     for i in range(NUM_LEDS):
-        brightness = int((fft_result[i] / max_val) * 255) 
-        np_strip[i] = (brightness, 0, 255 - brightness) 
+        intensity = int((fft_result[i] / max_val) * 255)
+        pixels[i] = (intensity, 0, 255 - intensity)
     
-    np_strip.write() 
+    pixels.show()
 
 while True:
     update_leds()
