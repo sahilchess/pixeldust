@@ -12,12 +12,12 @@ Wokwi link: https://wokwi.com/projects/419125530736663553
 
 Its a 11x11 RGB Matrix that can be controlled using wifi/ bluetooth or music also there are other io pins to add other sensors aswell
 
-| QTY           |     PART      | Approx Price |
-| ------------- | ------------- | ------------ | 
-| 1             | ESP WROOM 32E |   $3.79      |
-| 125           | SK6812MINI-EA |   $9.30      |
-| 1             | MIC5219-3.3 |   $0.162     |
-| 1           | 6.3v 1000uf(6.3YXJ1000M8X11.5)  |   $0.1184      |
+| QTY           |     PART      | Approx Price |  LCSC |
+| ------------- | ------------- | ------------ | ----- |
+| 1             | ESP WROOM 32E |   $3.79      |[C701341](https://www.lcsc.com/product-detail/WIFI-Modules_Espressif-Systems-ESP32-WROOM-32E-4MB_C701341.html)
+| 125           | SK6812MINI-EA |   $9.30      |[C5378731](https://www.lcsc.com/product-detail/RGB-LEDs-Built-in-IC_OPSCO-Optoelectronics-SK6812MINI-EA_C5378731.html)
+| 1             | MIC5219-3.3 |   $0.162     |[C42422052](https://www.lcsc.com/product-detail/Voltage-Regulators-Linear-Low-Drop-Out-LDO-Regulators_TDSEMIC-MIC5219-3-3YM5-TD_C42422052.html?s_z=n_MIC5219-3.3)|
+| 1           | 6.3v 1000uf  |   $0.1184      |[C694350](https://www.lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-Leaded_Rubycon-6-3YXJ1000M8X11-5_C694350.html?s_z=n_6.3YXJ1000M8X11.5)
 
 (pls include rough pricing of any extra components you're using
 
