@@ -35,4 +35,18 @@ A simplified BOM table
 I started out with a perhaps unoriginal goal of a 8x8 neopixel matrix, because everyone loves displaying things! Knowing that the MCU can´t give more than 500mA (and wanting to use my matrix at more than 1/10 brightness :P ), I checked the allowed parts list to see how I can get those 4A for a blinding fullbright matrix, so I put an USBC receptacle, PD controller and a buck converter in my schematic. I spent multiple days painfully trying to get info about the intended schematics for those components (apparently, a 5V converter isn´t just "ground goes here, bad voltage goes in here, 5V goes out here", who knew?).
 When i realised that i´m actually behind on time because of this research, I hurried to make a PCB... only to see that the footprints for these things scream "DRC violation" and cannot be soldered by a human. I decided i don´t want to bother with them anymore and shelved the design (maybe i´ll use onboard+PCBA for it).
 Starting with a clean slate, the AHT20 sensor in the component list caught my eye, because i like things that interact with the environment. I decided to make a thermometer-like board, and since most thermometers are long and thin and it was 1AM, I went with the S3 DevkitC, because "it has a similar shape" (this made my board into a not-so-thin Glowpad instead of a Glowstick). After making an Adafruit AHT20 board footprint myself because i couldn´t find it anywhere, I made the PCB, added a lot of needlesly broken out pins as always, and made the thermometer firmware.
-Some images of your design (make sure to include both the PCB and Schematic!):
+
+## Images
+
+### Schematic
+![Schematic](img/glowpad_schematic_screenshot.png)
+
+![]()
+### PCB
+
+![PCB](img/glowpad_pcb_screenshot.png)
+
+### 3D renders
+![ortho view](img/glowpad_3D_full_ortho.png)
+
+![tilted view](img/glowpad_3D_full_rotat.png)
