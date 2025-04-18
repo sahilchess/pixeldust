@@ -12,9 +12,9 @@ Wokwi link: [https://wokwi.com/projects/428150748420308993](https://wokwi.com/pr
 
 I was inspired greatly by the art in Legend of Zelda, Breath of the Wild, and decided to task myself with making the yiga clan symbol (shiekah eye upside down). They paint it in red, so I decided I would make the LED's pulse red.
 
-![Design sketch](Pictures/shiekah_schematic.png)
-![PCB](Pictures/shiekah_pcb.png)
-![3D PCB](Pictures/shiekah_3d.png)
+![Design sketch](pictures/sheikah_schematic.png)
+![PCB](pictures/sheikah_pcb.png)
+![3D PCB](pictures/sheikah_3d.png)
 
 | Comment          | Footprint                          | Quantity | LCSC   | Cost  |
 | ---------------- | ---------------------------------- | -------- | ------ | ----- |
