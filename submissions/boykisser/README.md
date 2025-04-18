@@ -32,6 +32,7 @@ Bill Of Material
 | SK6812MINI-EA     | C_0402_1005Metric_Pad0.74x0.62mm_HandSolder    | 2        | -     |  -   |
 | XIAO ESP32-S3     | XIAO-RP2040-DIP                                | 1        | -     |  -   |
 
+I need a hotplate and some solder paste if possible :3
 
 Initially, I wanted to take a shortcut by finding an image online and using KiCad's image converter to create the edge cuts. However, I quickly realized that this method wouldn't work as it gave broken and jagged edge cuts. Then, I decided to design the edge cuts and rule zone manually by tracing over the original image (real). It took about 2 hours to design the PCB without any components.
 
