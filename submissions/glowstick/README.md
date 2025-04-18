@@ -41,7 +41,9 @@ Starting with a clean slate, the AHT20 sensor in the component list caught my ey
 ### Schematic
 ![Schematic](img/glowpad_schematic_screenshot.png)
 
-![]()
+### [AHT20 footprint](src/custom_footprints_Adafruit_AHT20.kicad_mod)
+![Adafruit AHT20 footprint](img/glowpad_AHT20_footprint.png)
+
 ### PCB
 
 ![PCB](img/glowpad_pcb_screenshot.png)
