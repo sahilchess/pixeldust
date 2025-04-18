@@ -2,7 +2,7 @@
 name: "Aidan Procopio"
 slack_id: "U08D6MSQW0M"
 github_handle: "@JustAGlitchFL"
-wokwi: [# Link to the Wokwi project](https://wokwi.com/projects/428219055605758977)
+wokwi: https://wokwi.com/projects/428219055605758977
 ---
 
 # Shard
