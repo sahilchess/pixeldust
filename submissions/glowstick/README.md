@@ -1,1 +1,34 @@
+---
+name: "strawberry"
+slack_id: "U07D59XCG4U"
+github_handle: "@return-misaPuding"
+tutorial: none
+wokwi: TBA
+---
 
+# Glowstick
+
+Wokwi link: [TBA](https://wokwi.com/projects/XXXXXX)
+
+<!-- Uncomment the line below if you need a soldering iron -->
+⚠️ I would like to solder the caps and some neopixels (not all tho, maybe 3/16, so I would need a hotplate (as per Slack)
+
+## About
+
+This is a glowstick/glowpad PCB that shows the current temperature and humidity. It has one 8-neopixel "bar" on each side of the PCB, with the S3-DevkitC in the middle. I didn´t want this to be similar to normal thermometers (digital or physical), so the humidity is shown by bars rising, and temperature is shown with neopixel color.
+
+A simplified BOM table
+(pls include rough pricing of any extra components you're using)
+
+<!-- Example: -->
+
+| Comment           | Footprint                                      | Quantity | LCSC     | Cost   |
+|-------------------|------------------------------------------------|----------|----------|--------|
+| 100uF/330F             | CP_Radial_D8.0mm_P3.50mm    | 2        | C112510/C383041   | 0.033$/0.036$ | 
+| 4.7nF             | C_1206_3216Metric_Pad1.33x1.80mm_HandSolder    | 16        | C1538    | 0.0011$|
+| SK6812MINI-EA           | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm             | 16        |          |
+| ESP32-S3-DevkitC   | ESP32-S3-DevkitC                                | 1        | [allegro, N8R8 i think](https://allegro.cz/nabidka/modul-esp32-s3-devkitc-1-wroom-1-n16r8-16mb-flash-wifi-bluetooth-usb-c-17303767653)          | 13+2$ | |Adafruit AHT20 board         | Adafruit_AHT20                         | 1        | [Botland.cz](https://botland.cz/multifunkcni-senzory/17199-aht20-snimac-teploty-a-vlhkosti-i2c-adafruit-4566-5904422364311.html)         | 6$+4$ shipping |
+| 300Ohm            | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | 2       |          |       | 
+
+
+Some images of your design (make sure to include both the PCB and Schematic!):
