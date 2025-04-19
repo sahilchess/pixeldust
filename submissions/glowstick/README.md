@@ -25,7 +25,7 @@ A simplified BOM table
 | Comment           | Footprint                                      | Quantity | LCSC     | Cost   |
 |-------------------|------------------------------------------------|----------|----------|--------|
 | 100uF/330F             | CP_Radial_D8.0mm_P3.50mm    | 2        | C112510/C383041   | 0.033$/0.036$ | 
-| 4.7nF             | C_1206_3216Metric_Pad1.33x1.80mm_HandSolder    | 16        | C1538    | 0.0011$|
+| 0.1nF             | C_1206_3216Metric_Pad1.33x1.80mm_HandSolder    | 16        | C24497    | 0.014$|
 | SK6812MINI-EA           | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm             | 16        |          |
 | ESP32-S3-DevkitC   | ESP32-S3-DevkitC                                | 1        | [allegro, N8R8 i think](https://allegro.cz/nabidka/modul-esp32-s3-devkitc-1-wroom-1-n16r8-16mb-flash-wifi-bluetooth-usb-c-17303767653)          | 13+2$ | |Adafruit AHT20 board         | Adafruit_AHT20                         | 1        | [Botland.cz](https://botland.cz/multifunkcni-senzory/17199-aht20-snimac-teploty-a-vlhkosti-i2c-adafruit-4566-5904422364311.html)         | 6$+4$ shipping |
 | 300Ohm            | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | 2       |          |       | 
