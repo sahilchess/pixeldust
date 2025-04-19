@@ -28,8 +28,8 @@ Bill Of Material
 
 | Comment           | Footprint                                      | Quantity | LCSC     | Cost   |
 |-------------------|------------------------------------------------|----------|----------|--------|
-| SK6812-5050       | C_1206_3216Metric_Pad1.33x1.80mm_HandSolder    | 6        | -     |  -   |
-| SK6812MINI-EA     | C_0402_1005Metric_Pad0.74x0.62mm_HandSolder    | 2        | -     |  -   |
+| SK6812-5050       | SK6812    | 6        | -     |  -   |
+| SK6812MINI-EA     | SK6812MINI-E   | 2        | -     |  -   |
 | XIAO ESP32-S3     | XIAO-RP2040-DIP                                | 1        | -     |  -   |
 
 I need a hotplate and some solder paste if possible :3
