@@ -21,9 +21,9 @@ A simplified BOM table
 |-------------------|------------------------------------------------|----------|----------|--------|
 | 1uF               | C_1206_3216Metric_Pad1.33x1.80mm_HandSolder    | 1        | C15008   | 0.1247$|
 | 1nF               | C_0402_1005Metric_Pad0.74x0.62mm_HandSolder    | 13       | C100040  | 0.0273$|
-| WS2812B           | LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm             | 80       |          | 1.94$  |
-| WS2812B           | XINGLIGHT XL-0807RGBC-WS2812B-S                | 140      |          | 3.65$  |
-| XIAO ESP32-S3     | XIAO-ESP32-S3-DIP                              | 1        |          |
+| WS2812B           | LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm             | 80       | C22461793| 1.94$  |
+| WS2812B           | XINGLIGHT XL-0807RGBC-WS2812B-S                | 140      | C41413181| 3.65$  |
+| XIAO ESP32-S3     | XIAO-ESP32-S3-DIP                              | 1        |          |        |
 
 This was more hectic to design than i imagined it to be. The power delivery was problematic, I had planned of using
 USB C PD but the neotiating circuit was too complex. Not thinking about it definetly helped, I just ended up using the XIAO's 
