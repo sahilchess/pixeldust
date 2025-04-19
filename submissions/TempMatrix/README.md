@@ -15,7 +15,7 @@ Wokwi link: [https://wokwi.com/projects/427790809896654849](https://wokwi.com/pr
 Please remove the Order Number Silkscreen from my PCB in the options area. Thanks! 
 
 <!-- Uncomment the line below if you need a soldering iron -->
-⚠️ I would like to solder my PixelDust project and solder other projects because my old soldering iron blasted and gave me a burn and my parents aren't buying me one, so I would need a soldering iron.
+⚠️ I would like to solder my PixelDust project and solder other projects because my old soldering iron blasted and gave me a burn and my parents aren't buying me one, so I would need a soldering iron(hotplate not iron, edited).
 
 Describe your board in 2-3 sentences. What are you making? What will it do? Please add a lot of pictures here!!
 
@@ -32,7 +32,7 @@ A simplified BOM table
 
 1x 100uF Capacitor ------------- 2.45USD
 
-84x SK6812 NeoPixels ---------- 5.922USD
+84x SK6812 NeoPixels Warm White 5.922USD
 
 1x 330ohm resistor ----------- 0.0107USD
 
