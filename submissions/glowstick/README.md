@@ -3,7 +3,7 @@ name: "strawberry"
 slack_id: "U07D59XCG4U"
 github_handle: "@return-misaPuding"
 tutorial: none
-wokwi: [:D](https://wokwi.com/projects/428760578626492417)
+wokwi: "https://wokwi.com/projects/428760578626492417"
 ---
 
 # Glowpad
