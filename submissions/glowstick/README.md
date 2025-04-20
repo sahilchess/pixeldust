@@ -3,12 +3,13 @@ name: "strawberry"
 slack_id: "U07D59XCG4U"
 github_handle: "@return-misaPuding"
 tutorial: none
-wokwi: TBA
+wokwi: [:D](https://wokwi.com/projects/428760578626492417)
 ---
 
 # Glowpad
 
-Wokwi link: [TBA](https://wokwi.com/projects/XXXXXX)
+Wokwi link: [https://wokwi.com/projects/428760578626492417](https://wokwi.com/projects/428760578626492417)
+firmware changed a bit (only neopixel pins+test values i think) to account for RPi pico simulation
 
 <!-- Uncomment the line below if you need a soldering iron -->
 ⚠️ I would like to solder the caps and some neopixels (not all tho, maybe 3/16, so I would need a hotplate (as per Slack)
@@ -26,7 +27,7 @@ A simplified BOM table
 |-------------------|------------------------------------------------|----------|----------|--------|
 | 100uF/330F             | CP_Radial_D8.0mm_P3.50mm    | 2        | C112510/C383041   | 0.033$/0.036$ | 
 | 0.1nF             | C_1206_3216Metric_Pad1.33x1.80mm_HandSolder    | 16        | C24497    | 0.014$|
-| SK6812MINI-EA           | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm             | 16        |          |
+| SK6812MINI-E           | LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm             | 16        |          |
 | ESP32-S3-DevkitC   | ESP32-S3-DevkitC                                | 1        | [allegro, N8R8 i think](https://allegro.cz/nabidka/modul-esp32-s3-devkitc-1-wroom-1-n16r8-16mb-flash-wifi-bluetooth-usb-c-17303767653)          | 13+2$ | |Adafruit AHT20 board         | Adafruit_AHT20                         | 1        | [Botland.cz](https://botland.cz/multifunkcni-senzory/17199-aht20-snimac-teploty-a-vlhkosti-i2c-adafruit-4566-5904422364311.html)         | 6$+4$ shipping |
 | 300Ohm            | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | 2       |          |       | 
 
@@ -47,6 +48,10 @@ Starting with a clean slate, the AHT20 sensor in the component list caught my ey
 ### PCB
 
 ![PCB](img/glowpad_pcb_screenshot.png)
+
+### Wokwi (RPi pico)
+![wokwi screenshot with some neopixels lit up on the bars](https://github.com/user-attachments/assets/d1d2ac1a-1a74-4dc8-bc0f-9f4a2d6815d2)
+
 
 ### 3D renders
 ![ortho view](img/glowpad_3D_full_ortho.png)
