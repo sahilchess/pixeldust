@@ -14,6 +14,7 @@ Wokwi link: https://wokwi.com/projects/428194723515552769
 
 <!-- Uncomment the line below if you need a soldering iron -->
 <!-- ⚠️ I would like to [reason for iron], so I would need a soldering iron. -->
+If possible can i have hot plate and some solder paste? tysm
 
 <!-- Example: -->
 
