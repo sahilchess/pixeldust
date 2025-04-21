@@ -1,4 +1,4 @@
-"Id","Designator","Quantity","Footprint","Supplier","ref","LCSC,"Notes"
+"Id","Designator","Quantity","Footprint","Supplier","ref","LCSC","Notes"
 "WS2812B","LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm",12,WS2812B,Adafruit,1655,C2846931,adafruit.com/product/1655
 "Capacitor_Small_Decoupler","WCAP-CSGP_0603_R",12,"C",Würth Elektronik Group,WCAP-CSGP_0603_R,N/A,snapeda.com/parts/885012206046/W%C3%BCrth%20Elektronik/view-part/?ref=search&t=WCAP-CSGP_0603
 "U2","XIAO-ESP32S3-DIP",1,"XIAO-ESP32-S3-DIP",Seeed Studio,ESP32S3-DIP,N/Aseeedstudio.com/XIAO-ESP32S3-p-5627.html
