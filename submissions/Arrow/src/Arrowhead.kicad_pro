@@ -431,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "pixeldust-tutorial.kicad_pro",
+    "filename": "Arrowhead.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -466,7 +466,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../Final/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -576,7 +576,7 @@
   },
   "sheets": [
     [
-      "d2197c95-7593-4d5f-8a30-93406f8a3f1a",
+      "d0b8a1c9-b2d6-4c19-a01a-0a72e8b0ad04",
       "Root"
     ]
   ],
