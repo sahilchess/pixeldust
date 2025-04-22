@@ -2,7 +2,8 @@ import board
 import neopixel
 import time
 import adafruit_ahtx0
-i2c = board.i2c(scl=board.D36, sda=board.D37)
+import busio
+i2c = busio.i2c(scl=board.D36, sda=board.D37)
 tempsensor = adafruit_ahtx0_AHTx0(i2c)
 pxr = neopixel.NeoPixel(board.D38, 9, brightness=0.5) #8+inbuilt neopixel
 pxl = neopixel.Neopixel(board.D14, 8, brightness=0.5)
