@@ -1,6 +1,6 @@
 ---
 name: "Reem Ahrabar"
-slack_id: "U07D59XCG4U"
+slack_id: "U07TZLFLJFR"
 github_handle: "@cloudTwelve"
 tutorial: https://pixeldust.hackclub.com/guidelines
 wokwi: [https://wokwi.com/projects/428996000515740673](https://wokwi.com/projects/428996000515740673)
