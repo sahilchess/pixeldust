@@ -21,10 +21,11 @@ My board is a christmas tree. There are three buttons. One button makes a cool r
 
 ID    |    Cost          |          MFR ref      |            LCSC
 1. WS2812B: | $4.05 x 12 = $48.60 |  1655                   |  C2846931 
-2. C: | $0.05 x 12 = $0.60        |  WCAP-CSGP-0603         | N/A
+2. C: | $0.05 x 12 = $0.60        |  WCAP-CSGP-0603         | C30926
 3. U2: | $7.49 x 1 = $7.49        |  ESP32S3-DIP            |  N/A
 4. C1:	| $0.28 x 1 = $0.28       |  EEE-FC1E101P           |  C336531
-5. SW_Push: | $0.10 x 3 = $0.30   |  TS02-66-70-BK-160-LCR-D|  N/A
+5. SW_Push: | $0.10 x 3 = $0.30   |  TS02-66-70-BK-160-LCR-D|  C139754
+   
 Total: ~$57.27
 
 ## Tell us a little bit about your design process. What were some challenges? What helped?
