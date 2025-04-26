@@ -23,7 +23,7 @@ color modes:
 - 8: pink
 - 9: cotton-candy
 
-animated modes (sceaped bc time):
+animated modes (scrapped bc time):
 (if display == 3)
 - 0: pulse white
 - 1: changing colors

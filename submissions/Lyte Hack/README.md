@@ -19,7 +19,7 @@ This is my submission for Hack Club's Pixeldust YSWS, and it's for a light that 
 ### Concept Images
 ![Image of a water bottle illuminated by a phone flashlight.](https://hc-cdn.hel1.your-objectstorage.com/s/v3/7fab7a1c094140d6322f04b7f2818c0ed7358d74_img_0418.jpeg "How the original life hack works.")
 
-![Diagram of the fully assembled PCB + case.](https://hc-cdn.hel1.your-objectstorage.com/s/v3/7fab7a1c094140d6322f04b7f2818c0ed7358d74_img_0418.jpeg "Basic diagram of the PCB + case setup.")
+![Diagram of the fully assembled PCB + case.](https://hc-cdn.hel1.your-objectstorage.com/s/v3/16ee33c26fb120fbe0c6f0f4322ed8d48009716c_screen_shot_2025-04-23_at_1.55.08_am.png "Basic diagram of the PCB + case setup.")
 
 ### Features
 - 2 modes:
@@ -53,12 +53,12 @@ I started this when the event was already over, and I had been thinking of chill
 #### The Schematic
 This went quickly. Following the guide given on the pixeldust website, I breezed through. The only new thing was the concept of decoupling capacitors (I should really learn electrical engineering...). I had to change a footprint when filling out the README, since the button I initially used (B3S-1100) was out of stock.
 
-![Schematic of PCB](https://hc-cdn.hel1.your-objectstorage.com/s/v3/180ddaa44e57c66ffd447aa4527bcb9644863e83_screen_shot_2025-04-23_at_2.43.52_am.png "Schematic of PCB on Kicad.")
+![Schematic of PCB](https://hc-cdn.hel1.your-objectstorage.com/s/v3/b76591262a1f443a5ace4dda7364f0d465f15d50_screen_shot_2025-04-23_at_2.42.37_am.png "Schematic of PCB on Kicad.")
 
 #### The PCB
 This was also simple, I just listened to YouTube lectures and podcasts while I positioned and routed the items. The routing is pretty sloppy, in the future I'd probably watch a video on cleaner routing + good practices before doing this. Nevertheless, Hackpad gave me a good base, and the only issue I had was having to come back when small schematic issues cropped up (eg. changing the footprint for the button) and re-route/reposition items.
 
-![PCB layout on Kicad](https://hc-cdn.hel1.your-objectstorage.com/s/v3/180ddaa44e57c66ffd447aa4527bcb9644863e83_screen_shot_2025-04-23_at_2.43.52_am.png "PCB layout on Kicad.")
+![PCB layout on Kicad](https://hc-cdn.hel1.your-objectstorage.com/s/v3/10a69fbbb9a81514630dfa7ac2f664020fe99c0c_screen_shot_2025-04-23_at_2.43.13_am.png "PCB layout on Kicad.")
 
 #### The Firmware
 I had high aspirations that were partially fulfilled. Initially, I wanted 3 modes, static white, static color, and animated color, but I ended up throwing out the animated mode because of time. Some struggles I faced were:
