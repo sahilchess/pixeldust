@@ -28,4 +28,7 @@ eh pretty easy
 
 ![alt text](image.png)
 ![alt text](image-1.png)
-
+![](image-2.png)
+![alt text](image-3.png)
+![alt text](sm_blue_top.png) 
+![alt text](sm_blue_bottom.png)
