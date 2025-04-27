@@ -33,33 +33,34 @@ Day Drizzle
 Rainy Night
 
 ![Rainy night animation](./images/msedge_u0dh2ssR2J.gif)
-> there are current 12 animations
+> there are currently 12 animations
 
 # Simplified BOM Table
 
 | Comment           | Footprint                                      | Quantity       | LCSC     | Cost           | AliExpress |
 |-------------------|------------------------------------------------|----------------|----------|----------------|------------|
-| 0805 100uF        | C_0805_2012Metric_HandSolder_EDITED            | 100* (69 used) | C476766  | $0.39 for 100  |            |
+| 0805 100uF Cap    | C_0805_2012Metric_HandSolder_EDITED            | 100* (69 used) | C476766  | $0.39 for 100  |            |
+| 0805 4.7kOhm Res  | C_0805_2012Metric_HandSolder_EDITED            | 5* (2 used)    | C473295  | $0.34          |            |
 | Any WS2812B-5050  | LED_WS2812B_EDITED                             | 70* (69 used)  | C2843785 | $3.47          |            |
 | XIAO-ESP32S3-DIP  | XIAO-ESP32-S3-DIP                              | 1              | ?        | $7.49          |            |
 | EC11              | RotaryEncoder_EC11                             | 1              | C2991196 | $1.13          |            |
-| AHT20 (board)     | PinHeader_1x04_P2.54mm_Vertical                | 1              |          | $1             | [Link][1]  |
-[1]: <https://www.aliexpress.us/item/3256806682863351.html>
+| AHT20 (board)     | PinHeader_1x04_P2.54mm_Vertical                | 1              | N/A      | $1             | https://www.aliexpress.us/item/3256806682863351.html  |
+
 * *quantity in multiples only
 
 # Challenges 
 <!--Tell us a little bit about your design process. What were some challenges? What helped?-->
-> Placing the pixels in a circle was difficult. In the PCB Edtior, I accomplished this by right clicking a pixel and creating a circular array with a negative angle since I chose to have my pixels upside down. From here I encountered a problem where the starting pixel for some reason went to an angled position to the right while I wanted it at the top, so I created an array with a positive angle, duplicated the starting pixel, deleted the array, and created a new one with the new starting pixel and a negative angle, making the starting pixel begin at the top.
+Placing the pixels in a circle was difficult. In the PCB Edtior, I accomplished this by right clicking a pixel and creating a circular array with a negative angle since I chose to have my pixels upside down. From here I encountered a problem where the starting pixel for some reason went to an angled position to the right while I wanted it at the top, so I created an array with a positive angle, duplicated the starting pixel, deleted the array, and created a new one with the new starting pixel and a negative angle, making the starting pixel begin at the top.
 
-> I couldn't think of a way to wire the pixels with a 5V thick track so I opted for a 5V plane on the bottom and using vias to connect the pixels to power.
+I couldn't think of a way to wire the pixels with a 5V thick track so I opted for a 5V plane on the bottom and using vias to connect the pixels to power.
 
 
 # PCB & Schematic Images
 
 PCB
 
-![PCB](./images/kicad_cOEeU4dHsN.png)
+![PCB](./images/PCB.png)
 
 Schematic
 
-![Schematic](./images/kicad_mnjKRoxERJ.png)
+![Schematic](./images/Schematic.png)
