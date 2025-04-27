@@ -22,11 +22,13 @@ When designing my PCB I had a few goals in mind:
 * Case, it should be able to fit in a case I can design.
 
 I ended up designing this schematic, due to it being software based I didn't need it to have any extra controls, such as buttons:
+
 ![schematic](https://github.com/user-attachments/assets/29063889-4b7f-43f3-91a3-9300e9118b3e)
 
 
 I had issues with Kicad crashing a lot, it has a ton of memory leaks, but I was able to design and sketch the PCB in the shape I actually wanted:
-![schematic](https://github.com/user-attachments/assets/8273fb89-527f-4b53-9b72-49c6d39fe06b)
+
+![pcb](https://github.com/user-attachments/assets/465bacc2-49f0-43a3-bd91-de0c2873d800)
 
 
 Here is what the final result looked like!:
