@@ -26,7 +26,7 @@ I ended up designing this schematic, due to it being software based I didn't nee
 
 
 I had issues with Kicad crashing a lot, it has a ton of memory leaks, but I was able to design and sketch the PCB in the shape I actually wanted:
-![pcb](pcb.png "PCB")![schematic](https://github.com/user-attachments/assets/8273fb89-527f-4b53-9b72-49c6d39fe06b)
+![schematic](https://github.com/user-attachments/assets/8273fb89-527f-4b53-9b72-49c6d39fe06b)
 
 
 Here is what the final result looked like!:
